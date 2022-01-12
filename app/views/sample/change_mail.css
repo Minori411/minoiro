@@ -1,0 +1,209 @@
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-break: break-all;
+}
+
+.dashContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+.back_white {
+  background: #f4f8fa !important;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.p-t3 {
+  padding-top: 30px;
+}
+
+.dashContent_right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 16px;
+  min-height: 0;
+  min-width: 0;
+}
+
+.dashContent_right .boxbaseP30 .in {
+  margin: 0 auto;
+}
+
+.dashContent_right h1 {
+  padding: 0;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h1 {
+  line-height: 150%;
+  font-weight: 700;
+}
+
+.sub_menu {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 10px;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.sub_menu li {
+  display: inline-block;
+  margin-right: 16px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.sub_menu a {
+  display: block;
+  padding: 8px 0;
+  color: #999;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  line-height: normal;
+  padding: 0.5rem 0.75rem;
+  overflow: visible;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+.boxbaseP30 {
+  padding: 40px;
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #f6f6f6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.editable {
+  width: 100%;
+  font-size: 13px;
+}
+
+.editable tr, .editable th, .editable td {
+  vertical-align: top !important;
+}
+
+.editable td {
+  padding-top: 10px;
+}
+
+.editable td input[type=email],
+.editable td input[type=password],
+.editable td input[type=text] {
+  margin: 0;
+}
+
+.editable th {
+  padding-top: 20px;
+}
+
+.m-t2 {
+  margin-top: 20px;
+}
+
+.p-b1 {
+  padding-bottom: 10px;
+}
+
+input[type=email],
+input[type=password],
+input[type=text] {
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #e4eaec;
+  min-height: 44px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.small {
+  color: #666;
+  font-size: 12px;
+}
+
+.m-t05 {
+  margin-top: 5px;
+}
+
+.imasugu {
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.imasugu .btn {
+  margin: 30px auto;
+  padding: 6px 60px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.alignCenter {
+  text-align: center !important;
+}
+
+.btn {
+  text-align: center;
+  border: 2px solid #ff6e00;
+  color: #ff6e00;
+  text-decoration: none;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+[type=submit], button {
+  -webkit-appearance: button;
+}
+
+button {
+  outline: none;
+  line-height: normal;
+  text-transform: none;
+  overflow: visible;
+  font-family: inherit;
+  font-size: 100%;
+}
+/*# sourceMappingURL=change_mail.css.map */

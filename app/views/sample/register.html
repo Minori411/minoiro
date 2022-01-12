@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+
+    <title>みのいろ</title>
+</head>
+<body>
+    <main id="app"data-action="register">
+        <div id="vapp">
+            <div class="loginpanel_wrap p-t6 p-b6">
+                <div class="loginpanel">
+                    <form id="register" method="POST" action="" accept-charset="UTF-8">
+                        <input type="hidden" name="_token" value="">
+                        <div class="login_title">
+                            <h1>新規会員登録</h1>
+                            <p class="login_lead">メールアドレスで登録</p>
+                        </div>
+                        <div class="form_item">
+                            <div class="input_head">
+                                <p>メールアドレス</p>
+                            </div>
+                            <div class="input_body">
+                                <input type="email" name="email" placeholder="info@minoiro.com" required="required" autofocus="autofocus">
+                            </div>
+                        </div>
+                        <div class="form_item">
+                            <div class="input_head">
+                                <p>ユーザー名</p>
+                            </div>
+                            <div class="input_body">
+                                <input type="text" name="name" placeholder="ユーザー名" required="required">
+                            </div>
+                        </div>
+                        <div class="form_item">
+                            <div class="input_head">
+                                <p>パスワード（英数字8文字以上）</p>
+                            </div>
+                            <div class="input_body">
+                                <input type="password" name="password" placeholder required="required">
+                                <i class="fa icon_eye fa-eye">
+                                </i>
+                            </div>
+                        </div>
+                        <div class="form_item">
+                            <div class="input_head">
+                                <p>確認用パスワード</p>
+                            </div>
+                            <div class="input_body">
+                                <input type="password" name="password_confirmation" placeholder="上と同じパスワードを入力してください"　required="required">
+                                <i class="fa icon_eye fa-eye">
+                                </i>
+                            </div>
+                        </div>
+                        <div class="checkbox_area flexbox">
+                            <p class="checkbox_content mt-4">
+                                <span class="checkbox_wrapper">
+                                    <label>
+                                        <input id="is_guideline" type="checkbox" name="is_kiyaku">
+                                        <span>
+                                            <a href="#" target="_blank">利用規約</a>
+                                            と
+                                            <a href="#" target="_blank">個人情報保護法</a>
+                                            に同意します。
+                                        </span>
+                                    </label>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="submit_buttons">
+                            <button type="submit" disabled="disabled" class="submit_button primaryButton">無料で会員登録する</button>
+                        </div>
+                        <div class="m-t3">
+                            <a href="#">アカウントをお持ちの方はこちら</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>  
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+    <title>みのいろ</title>
+</head>
+<body>
+    <main id="app" data-action="login">
+        <div class="loginpanel_wrap p-t6 p-b6">
+            <div class="loginpanel">
+                <form method="POST" action="" accept-charset="UTF-8" novalidate id="login">
+                    <input name="_token" type="hidden" value="">
+                    <div class="login_title">
+                        <h1>ログイン</h1>
+                    </div>
+                    <div class="m-b-20"></div>
+                    <div class="form_item">
+                        <div class="input_head">
+                            <p>メールアドレス</p>
+                        </div>
+                        <div class="input_body">
+                            <input type="email" name="email" placeholder="info@minoiro.com" value required autofocus>
+                            <span class="help-block"></span>
+                        </div>
+                    </div>
+                    <div class="form_item">
+                        <div class="input_head">
+                            <p>パスワード(英数字8文字以上)</p>
+                        </div>
+                        <div class="input_body">
+                            <input type="password" name="password" placeholder="Password" required>
+                            <i class="fa fa-eye icon_eye js-toggle-password"></i>
+                            <span class="help-block"></span>
+                        </div>
+                    </div>
+                    <div class="submit_buttons">
+                        <button type="submit" class="submit_button primaryButton">ログイン</button>
+                    </div>
+                    <div class="m-t2">
+                        <label> 
+                            <input type="checkbox" name="remember">
+                            ログインしたままにする
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

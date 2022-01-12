@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="change_mail.css">
+    <script src="https://kit.fontawesome.com/224f2824f8.js" crossorigin="anonymous"></script>
+    <title>みのいろ</title>
+</head>
+<body>
+    <main id="app" data-action="member/config/change_mail">
+        <div class="back_white inner p-t3 dashContent">
+            <div class="dashContent_right">
+                <h1>メール・通知</h1>
+                <ul class="sub_menu">
+                    <li>
+                        <a href="#">
+                            プロフィール
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#">メール・通知</a>
+                    </li>
+                    <li>
+                        <a href="#">お支払い情報</a>
+                    </li>
+                    <li>
+                        <a href="#">本人確認</a>
+                    </li>
+                    <li>
+                        <a href="#">銀行口座</a>
+                    </li>
+                    <li>
+                        <a href="#">パスワード変更</a>
+                    </li>
+                    <li>
+                        <a href="#">外部サービス連携</a>
+                    </li>
+                    <li>
+                        <a href="#">紹介</a>
+                    </li>
+                </ul>
+                <form method="POST" action="" accept-sharset="UTF-8">
+                    <input name="_token" type="hidden" value="">
+                    <div class="boxbaseP30">
+                        <div class="in">
+                            <h3>メールアドレス変更</h3>
+                            <table class="editable m-t2">
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <div class="p-b1">現在のメールアドレス</div>
+                                        </th>
+                                        <td class="p-t2">
+                                            <div class="p-b1"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>新しいメールアドレス</th>
+                                        <td class="p-t1">
+                                            <div class>
+                                                <input class="w300" required autofocus name="email" type="email">
+                                                <div class="small m-t05">確認メールのURLをクリックして承認後に変更されます</div>
+                                                <span class="help-block"></span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>パスワード</th>
+                                        <td>
+                                            <div class="p-t1">
+                                                <input class="w300 m-b-10" required autofocus name="password" type="password" value>
+                                                <span class="help-block"></span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="imasugu alignCenter">
+                        <button class="btn" type="submit">変更する</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

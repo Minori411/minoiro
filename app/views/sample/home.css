@@ -1,0 +1,294 @@
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-break: break-all;
+}
+
+a {
+  text-decoration: none;
+  color: #4f5050;
+}
+
+.dashContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+.back_white {
+  background: #f4f8fa !important;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.p-t3 {
+  padding-top: 30px;
+}
+
+.dashContent_right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 16px;
+  min-height: 0;
+  min-width: 0;
+}
+
+.todo_area {
+  margin-top: 8px;
+  padding: 16px;
+  background: #eeeeee;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.todo_area h3 {
+  width: 50%;
+}
+
+.todo_area_title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.todoList {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin-top: 8px;
+  padding-bottom: 8px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.todoList_item {
+  margin-right: 20px;
+  min-width: 212px;
+}
+
+.todoList_item a {
+  background: #fff;
+  border-radius: 4px;
+  padding: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.todoList_item .check_circle {
+  font-size: 18px;
+  color: #a6a6a6;
+  position: absolute;
+  top: 16px;
+  height: 16px;
+  line-height: 1;
+}
+
+.fas {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.todoList_item_icon {
+  width: 32px;
+  height: 32px;
+  background-color: #eaf7f7;
+  border-radius: 32px;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.todoList_item_icon i {
+  font-size: 18p;
+}
+
+.icon {
+  margin: 0 auto;
+  border-radius: 50%;
+  background-position: top;
+  background-size: cover;
+  background: #f4f8fa;
+}
+
+.todoList_item_label {
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.todoList_item_label_head {
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+}
+
+.todoList_item_label_body {
+  margin-top: 4px;
+  font-size: 12px;
+  display: block;
+}
+
+.m-b2 {
+  margin-bottom: 20px;
+}
+
+.m-t2 {
+  margin-top: 20px;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.scoreBox {
+  background: #fff;
+  border: 1px solid #f6f6f6;
+  padding: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.scoreBox_wrap {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.scoreBox .column_2 .contract_manage {
+  width: 49%;
+}
+
+.scoreBox .scoreStatus_list:first-child {
+  border-width: 0;
+}
+
+.scoreBox .contract_manage {
+  border: 1px solid #eee;
+}
+
+.scoreBox .scoreStatus {
+  padding: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.scoreBox .scoreStatus_item:last-child {
+  width: calc(50%-8px);
+  border: solid #e5e5e5;
+  border-width: 0 0 0 1px;
+  padding-left: 16px;
+}
+
+.scoreBox .scoreStatus_item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.scoreBox .scoreStatus_label {
+  font-size: 14px;
+  display: block;
+}
+
+.scoreBox .scoreStatus_score {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ff6e00;
+}
+
+.scoreBox .scoreStatus_lists {
+  border: 1px solid #eee;
+  padding: 8px 0;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.scoreBox .scoreStatus_list {
+  width: calc(20%-1px);
+  text-align: center;
+  border: aolid #e5e5e5;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 12px;
+}
+
+.scoreBox .scoreStatus_list_score {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.scoreBox .scoreStatus_list_label {
+  color: #666;
+  font-size: 11px;
+  padding-left: 8px;
+}
+
+.relative {
+  position: relative;
+}
+
+.m-t1 {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=home.css.map */

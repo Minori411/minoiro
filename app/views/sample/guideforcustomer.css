@@ -1,0 +1,226 @@
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-break: break-all;
+}
+
+.about_introduction {
+  background: #fff;
+  padding: 72px 0 120px;
+}
+
+.noflex {
+  display: block !important;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about .lead {
+  text-align: center;
+  margin-top: 54px;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.about h2 {
+  font-size: 38px;
+  color: #ff6e00;
+  text-align: center;
+  line-height: 1.6;
+}
+
+h2 {
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 38px;
+  color: #ff6e00;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.about_service {
+  padding: 64px 0 120px;
+}
+
+.about_service .inner {
+  padding: 0 34px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.about_service_list {
+  margin-top: 56px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about_service_list_item {
+  width: 30%;
+}
+
+.about_service_list_item_head {
+  margin-top: 32px;
+  color: #ff6e00;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.about_service_list_item_body {
+  margin-top: 24px;
+}
+
+.about_consult {
+  background: #fff;
+  padding: 64px 0;
+}
+
+.about_consult_check {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about_step {
+  padding: 92px 0;
+}
+
+.about_step .button .plan_customer {
+  width: 100%;
+  height: 80px;
+  font-size: 18px;
+  max-width: 340px;
+  padding: 0 16px;
+  line-height: 80px;
+  text-align: center;
+  margin: 34px auto 0;
+  display: block;
+}
+
+.about_step .microCopy {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 24px;
+}
+
+.about_step .microCopy span {
+  font-size: 16px;
+  display: block;
+  background: #ff6e00;
+  padding: 4px 16px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about_consult_check_body {
+  width: 30%;
+  margin-top: 40px;
+}
+
+.about_consult_check_end {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.about_add {
+  font-size: 12px;
+}
+
+.about_step_content {
+  max-width: 600px;
+  margin: 40px auto 0;
+}
+
+.about_step_content .arrow_icon {
+  display: block;
+  text-align: center;
+  margin: 8px auto;
+}
+
+.about_step_content .arrow_icon img {
+  width: 50px;
+}
+
+.about_step_content_item {
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 8px 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_step {
+  background: #f5f5dc;
+}
+
+.about_step_content_item_head {
+  background: #f4f8fa;
+  max-width: 96px;
+  width: 100%;
+  height: 90px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.about_step_content_item_body {
+  width: calc(100% - 124px);
+}
+
+.about_step_content_item_body p {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.about_step_content_item_body h4 {
+  font-size: 18px;
+  margin: 0;
+}
+/*# sourceMappingURL=guideforcustomer.css.map */

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payouts.css">
+    <script src="https://kit.fontawesome.com/224f2824f8.js" crossorigin="anonymous"></script>
+    <title>みのいろ</title>
+</head>
+<body>
+    <main id="app" data-action="member/payment/payouts">
+        <div class="back_white" inner p-t3 dashContent>
+            <div class="back_white inner p-t3 dashContent">
+                <ul class="dashContent_sidemenu">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-home"></i>
+                            HOME
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-envelope"></i>
+                            メッセージ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-chalkboard-teacher"></i>
+                            プラン管理
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">コンサルタントプラン作成</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" >
+                            <i class="fa fa-handshake"></i>
+                            契約管理
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    契約したお客様
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-piggy-bank"></i>
+                            売上履歴
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-coins"></i>
+                            お支払い管理
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">課金履歴</a>                            
+                            </li>
+                            <li>
+                                <a href="#">出金申請</a>
+                            </li>
+                            <li>
+                                <a href="#">出金履歴</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-cog"></i>
+                            設定
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">プロフィール</a>
+                            </li>
+                            <li>
+                                <a href="#">メール・通知</a>
+                            </li>
+                            <li>
+                                <a href="#">お支払い情報</a>
+                            </li>
+                            <li>
+                                <a href="#">本人確認</a>
+                            </li>
+                            <li>
+                                <a href="#">銀行口座</a>
+                            </li>
+                            <li>
+                                <a href="#">パスワード変更</a>
+                            </li>
+                            <li>
+                                <a href="#">外部サービス連携</a>
+                            </li>
+                            <li>
+                                <a href="#">紹介</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="small consultant_plan_link mt-2 mb-2">
+                    <a href="#">コンサルタントプランの登録はこちら</a>
+                </div>
+            </div>
+            <div class="dashContent_right">
+                <h1>出金履歴</h1>
+                <div class="month_head flexbox-row-reverse">
+                    <div style="margin-left: auto"></div>
+                    <div id="vapp" class="rireki_form flexbox">
+                        <form methid="GET">
+                            <div class="left">
+                                <div class="rireki_calendar">
+                                    <input name="from" type="date">
+                                    <span class="m-l-8 m-r-8">~</span> 
+                                    <input name="to" type="date">
+                                </div>
+                                <input type="submit" value="検索" class="rireki_search">
+                            </div>
+                        </form>
+                    </div> 
+                </div>
+                <div class="ellipsis_menu m-b2 flex justify-end">
+                    <a href="#"></a>
+                    <div class="ellipsis_menu_button">
+                        <a href="#"></a>
+                        <a href="#" tabindex="0">
+                            <i class="fa fa-ellipsis-h fa-fw"></i>
+                        </a>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <label for="modal-user-payout-download">CSVでダウンロード</label>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="boxbaseP30 nopadding">
+                    <div class="in">
+                        <div class="nobox"></div>
+                    </div>
+                </div>
+                <table class="rireki_zandaka">
+                    <tbody>
+                        <tr>
+                            <th>出金合計</th>
+                            <td class="alignRight"> 0円 </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

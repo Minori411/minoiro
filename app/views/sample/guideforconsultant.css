@@ -1,0 +1,255 @@
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-break: break-all;
+}
+
+.about_introduction {
+  background: #fff;
+  padding: 72px 0 120px;
+}
+
+.noflex {
+  display: block !important;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about .icon {
+  background: none;
+}
+
+.about .lead {
+  text-align: center;
+  margin-top: 54px;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.about h2 {
+  font-size: 38px;
+  color: #ff6e00;
+  text-align: center;
+  line-height: 1.6;
+}
+
+h2 {
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.about_service {
+  padding: 64px 0 120px;
+  background: #ffffcc;
+}
+
+.about_service .inner {
+  padding: 0 34px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.about_service_list {
+  margin-top: 56px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about_service_list_item {
+  width: 30%;
+}
+
+.about_service_list_item_head {
+  margin-top: 32px;
+  color: #ff6e00;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about_service_list_item_body {
+  margin-top: 24px;
+}
+
+.about_step {
+  padding: 92px 0;
+  background: #f5f5dc;
+}
+
+.about_step .button .plan_consultant {
+  width: 100%;
+  height: 80px;
+  font-size: 18px;
+  max-width: 340px;
+  padding: 0 16px;
+  line-height: 80px;
+  text-align: center;
+  margin: 34px auto 0;
+  display: block;
+}
+
+.about_step .button .plan_consultant .icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.about_step .microCopy {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 24px;
+}
+
+.about_step .microCopy span {
+  font-size: 16px;
+  display: block;
+  background: #ff6e00;
+  padding: 4px 16px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about_step_content {
+  max-width: 600px;
+  margin: 40px auto 0;
+}
+
+.about_step_content .arrow_icon {
+  display: block;
+  text-align: center;
+  margin: 8px auto;
+}
+
+.about_step_content .arrow_icon img {
+  width: 50px;
+}
+
+.about_step_content_item {
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 8px 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_step_content_item_body {
+  width: calc(100% - 124px);
+}
+
+.about_step_content_item_body p {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.about_step_content_item_body h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+.primaryButton {
+  color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 600;
+  background: #ff6e00;
+  border: 1px solid #ff6e00;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icon {
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.fa {
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.about_andmore {
+  padding: 140px 0 160px;
+}
+
+.about_andmore .userType_button {
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px auto 0;
+  border-radius: 6px;
+  max-width: 640px;
+  padding: 16px;
+  font-weight: 600;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.about_andmore .userType_button .button_inner {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_andmore .userType_button .customer {
+  background: #ff6e00;
+  font-size: 20px;
+  color: #fff;
+}
+
+.about_andmore .userType_button .customer .text {
+  padding-left: 24px;
+}
+/*# sourceMappingURL=guideforconsultant.css.map */
