@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/224f2824f8.js" crossorigin="anonymous"></script>
     <title>みのいろ</title>
 </head>
 <body>
-    <header>
-        <div class="v-app">
-            <header class="header">
+    <div class="v-app">
+        <header class="header pc_hyoji mini">
             <div class="header_inner">
                 <div class="header_inner_head flexbox">
                     <div id="logo">
@@ -28,9 +27,8 @@
                             <a href="#">ブログ</a>
                         </li>
                     </ul>
-                
             <nav class=" navi auth_buttons flexbox">
-                <div class="search>
+                <div class="search">
                     <form method="GET" action="" accept-charset="UTF-8">
                     <div class="relative">
                 <input id="q" placeholder="カテゴリ検索" name="q" type="text">
@@ -38,20 +36,126 @@
                 <i class="fa fa-search"> </i>
             </div>
             </div>
-        </form>
+                    </form>
             </div>
-                <div class="login">
+                <div class="navi_login">
                     <a href="#" tabindex="0" class="button">ログイン</a>
                 </div>
-                <div class="entry">
+                <div class="navi_entry">
                     <a href="#" tabindex="0" class="button primaryButton">無料登録</a>
                 </div>
                 </nav>
             </div>
             </div>
-        
-            </header>
-            
+        </header>
+        <header class="header smt_hyoji">
+            <div class="header_inner flexbox">
+                <div id="nav-drawer" class="header_inner_head flexbox">
+                    <div id="logo">
+                        <a href="#" class="flexbox">
+                            <img src="">
+                            みのいろ
+                        </a>
+                    </div>
+                    <div class="login">
+                        <a href="#">ログイン</a>
+                    </div>
+                    <div class="navi_entry">
+                        <a href="#" tabindex="0" class="button primaryButton">登録</a>
+                    </div>
+                    <div class="menu_icon menu_icon_last">
+                        <label id="nav-open" for="nav-input">
+                            <i class="fas fa-bars"></i>
+                        </label>
+                    </div>
+                    <label id="nav-close" for="nav-input" class="nav-unshown"></label>
+                    <div id="nav-content">
+                        <div class="flex">
+                            <div class="search">
+                                <form method="GET" action="" accept-charset="UTF-8">
+                                    <input id="q" placeholder="コンサルタントを検索" name="q" type="text" class="w90p">
+                                </form>
+                            </div>
+                        </div>
+                        <ul class="p-b2 bggray">
+                            <a href="#">
+                                <li>
+                                    <i class="fas fa-unlocke-alt"></i>
+                                    ログイン
+                                </li>
+                            </a>
+                            <a href="#" class="free_submit">
+                                <li>
+                                    <i class="#"></i>
+                                    無料登録
+                                </li>
+                            </a>
+                        </ul>
+                        <ul class="p-b2 bggray">
+                            <a href="#">
+                                <li>
+                                    <i class="fas fa-question-circle"></i>
+                                    みのいろとは？（コンサルタント向け)
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <i class="fas fa-question-circle"></i>
+                                    みのいろとは？（お客様向け)
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <i class="fas fa-home"></i>
+                                    HOME
+                                </li>
+                            </a>
+                            <a href="#"></a>
+                            <a href="#">
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                        コンサルタントを探す
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                        ブログ
+                                </li>
+                            </a>
+                        </ul>
+                        <ul class="p-b2 bggray">
+                            <a href="#">
+                                <li>ビジョン</li>
+                            </a>
+                            <a href="#">
+                                <li>利用規約</li>
+                            </a>
+                            <a href="#">
+                                <li>個人情報保護法</li>
+                            </a>
+                            <a href="#">
+                                <li>お問い合わせ</li>
+                            </a>
+                            <a href="#">
+                                <li>退会</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu flexbox">
+                    <ul>
+                        <li class="menu_item">
+                            <a href="#">コンサルタントを探す</a> 
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">ブログ</a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        </div> 
     <main id="app" data-action="home">
         <section class="top-keyVisual">
             <div class="top-keyVisual_container">
@@ -68,8 +172,8 @@
                 </div>
                 <div class="top-register_buttons buttons">
                     <a href="#" class="buttons_main alignCenter">今すぐはじめる</a>
-                    <a href="#" class="buttons_link aligncenter">お客様利用ガイド</a>
-                    <a href="#" class="buttons_link aligncenter">コンサルタント利用ガイド</a>
+                    <a href="#" class="buttons_link aligncenter">みのいろとは？（コンサルタント向け）</a>
+                    <a href="#" class="buttons_link aligncenter">みのいろとは？（お客様向け）</a>
                 </div>
             </div>
         </section>
@@ -225,3 +329,4 @@
     </footer>
 </body>
 </html>
+
