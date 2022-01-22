@@ -177,12 +177,16 @@ p {
 
 .fa-twitter {
   color: #1995e0;
+  margin-top: 20px !important;
+  margin-right: 10px;
 }
 
 .followbox,
 .Profile,
 .snsicon {
   text-align: left;
+  margin: 0 auto !important;
+  margin-left: 10px !important;
 }
 
 .m-t1 {
@@ -193,14 +197,22 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
+  border: 1px solid #ff6e00;
   background: #fff;
   border-radius: 6px;
-  color: #ff6e00;
+  color: #ff6e00 !important;
+  width: 250px;
+  margin-top: 30px;
 }
 
 .follow .member {
   font-size: 13px;
+}
+
+.follow .member a {
+  color: #ff6e00;
+  font-weight: 600;
 }
 
 .follow .title {
@@ -208,14 +220,16 @@ p {
   font-size: 11px;
 }
 
-.follow .percent {
+.follow .reply {
   font-size: 13px;
+  font-weight: 600;
 }
 
 .follow .w50p {
   width: 50%;
   padding: 5px 0;
   text-align: center;
+  border-right: 1px solid #ff6e00;
 }
 
 .follow .w50p span {
@@ -225,30 +239,6 @@ p {
 
 .follow .w50p a {
   text-decoration: none;
-}
-
-.card-action {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.card-action a {
-  font-size: 10px !important;
-  font-weight: 700;
-  color: #ff6e00 !important;
-  font-weight: 700 !important;
-}
-
-.card {
-  border: 2px solid #ff6e00;
-  background: #fff !important;
-  width: 250px;
-  padding: 0 0;
-}
-
-.card-active {
-  margin-right: 22px;
 }
 
 .bold {
