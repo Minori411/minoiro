@@ -1,0 +1,247 @@
+.dashContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+.back_white {
+  background: #f4f8fa !important;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.p-t3 {
+  padding-top: 30px;
+}
+
+.dashContent_right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 16px;
+  min-height: 0;
+  min-width: 0;
+}
+
+.dashContent_right h1 {
+  padding: 0;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h1 {
+  line-height: 150%;
+  font-weight: 700;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.whitespace-no-wrap {
+  white-space: nowrap;
+}
+
+.flexbox-row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.month_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.rireki_zandaka {
+  background: #eaf0f3;
+  padding: 8px 16px;
+  border-radius: 8px;
+  -webkit-box-sizing: bordre-box;
+          box-sizing: bordre-box;
+  width: 25%;
+  margin-left: auto;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.flexbox-justify-content-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.contract_search_contents .input_head {
+  font-size: 12px;
+  font-weight: 600;
+  color: #888;
+  padding-bottom: 2px;
+}
+
+.flexbox-align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contract_search_daterange input {
+  font-size: 16px;
+  padding: 0.5rem 0.75rem;
+  width: calc(50%-15px);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contract_search_daterange .and {
+  width: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+input[type=date] {
+  margin: 0;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #e4eaec;
+  min-height: 44px;
+  border-radius: 4px;
+}
+
+.justify-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.ellipsis_menu {
+  position: relative;
+  z-index: 100;
+}
+
+.ellipsis_menu ul {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  border: 1px solid #eee;
+  z-index: 100;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ellipsis_menu .active ul {
+  display: block;
+}
+
+.m-b2 {
+  margin-bottom: 20px;
+}
+
+.ellipsis_menu_button {
+  width: 40px;
+  height: 40px;
+  line-height: 43px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+}
+
+.fas, .far {
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.smt_hyoji {
+  display: none !important;
+}
+
+.m-b1 {
+  margin-bottom: 10px;
+}
+
+.m-t2 {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.far {
+  font-weight: 400;
+}
+
+.nopadding {
+  padding: 0 !important;
+}
+
+.boxbaseP30 {
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #f6f6f6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+/*# sourceMappingURL=earnings_history.css.map */

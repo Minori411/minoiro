@@ -1,0 +1,219 @@
+.dashContent {
+    display: flex;
+    text-align: left;
+}
+
+.back_white {
+    background: #f4f8fa!important;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.p-t3 {
+    padding-top: 30px;
+}
+
+.dashContent_right {
+    flex: 1;
+    margin-left: 16px;
+    min-height: 0;
+    min-width: 0;
+
+    h1 {
+        padding: 0;
+        font-size: 28px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+}
+
+h1 {
+    line-height: 150%;
+    font-weight: 700;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.whitespace-no-wrap {
+    white-space:nowrap;
+}
+
+.flexbox-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.month_head {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.rireki_zandaka {
+    background: #eaf0f3;
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-sizing: bordre-box;
+    width: 25%;
+    margin-left: auto;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.flexbox-justify-content-start {
+    justify-content: start;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.contract_search_contents {
+    .input_head {
+        font-size: 12px;
+        font-weight: 600;
+        color: #888;
+        padding-bottom: 2px;
+    }
+}
+
+.flexbox-align-center {
+    align-items: center;
+    display: flex;
+}
+
+.contract_search_daterange {
+    input {
+        font-size: 16px;
+        padding: 0.5rem 0.75rem;
+        width: calc(50%-15px);
+        box-sizing: border-box;
+    }
+
+    .and {
+        width: 20px;
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+input[type=date] {
+    margin: 0;
+    outline: none;
+    appearance: none;
+    border: 1px solid #e4eaec;
+    min-height: 44px;
+    border-radius: 4px;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.ellipsis_menu {
+    position: relative;
+    z-index: 100;
+
+    ul {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        border: 1px solid #eee;
+        z-index: 100;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .active {
+        ul {
+            display: block;
+        }
+    }
+}
+
+.m-b2 {
+    margin-bottom: 20px;
+}
+
+.ellipsis_menu_button {
+    width: 40px;
+    height: 40px;
+    line-height: 43px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+}
+
+.fas,.far {
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fa-fw {
+    text-align: center;
+    width: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.smt_hyoji {
+    display: none!important;
+}
+
+.m-b1 {
+    margin-bottom: 10px;
+}
+
+.m-t2 {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.far {
+    font-weight: 400;
+}
+
+.nopadding {
+    padding: 0!important;
+}
+
+.boxbaseP30 {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #f6f6f6;
+    border-radius: 8px;
+    overflow: hidden;
+}

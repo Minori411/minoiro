@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/224f2824f8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="earnings_history.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>みのいろ</title>
+</head>
+<body>
+    <div class="back_white inner p-t3 dashContent">
+        <div class="dashContent_right">
+            <div class="flex justify-between items-center">
+                <h1>売上履歴</h1>
+                <div class="whitespace-no-wrap"></div>
+            </div>
+            <div class="month_head flexbox-row-reverse">
+                <table class="rireki_zandaka">
+                    <tbody>
+                        <tr>
+                            <th>残高</th>
+                            <td class="alignright">0円</td>
+                        </tr>
+                        <tr>
+                            <th>出金可能残高</th>
+                            <td class="alignright">0円</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form method="GET" class="js-auto-submit">
+                    <div class="contract_search_contents flexbox flexbox-justify-content-start mb-4">
+                        <div class="contract_search_daterange">
+                            <div class="input_head">期間</div>
+                            <div class="input_body flexbox-align-center">
+                                <input name="from" type="date" value style="height: 49px";>
+                                <span class="and">〜</span>
+                                <input name="to" type="date" value style="height: 49px";>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="ellipsis_menu m-b2 flex justify-end">
+                <a href="#"></a>
+                <div class="ellipsis_menu_button">
+                    <a href="#"></a>
+                    <a href="#" tabindex="0">
+                        <i class="fas fa-ellipsis-h fa-fw"></i>
+                    </a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">印刷用ページを表示</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <label for="modal-user-payment-download">CSVでダウンロード</label>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="smt_hyoji m-b1 m-t2">
+                <i class="far fa-hand-point-right"></i>
+                右にスクロールできます
+            </p>
+            <div class="boxbaseP30 nopadding">
+                <div class="in">
+                    <div class="nobox"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
