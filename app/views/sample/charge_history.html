@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/224f2824f8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="charge_history.css">
+    <title>みのいろ</title>
+</head>
+<body>
+    <div class="back_white inner p-t3 dashContent">
+        <div class="dashContent_right">
+            <h1>課金履歴</h1>
+        <form method="GET" class="js-auto-submit">
+            <div class="contract_search_contents flexbox flexbox-justify-content-start mb-4">
+                <div class="contract_search_daterange">
+                    <div class="input_head">期間</div>
+                    <div class="input_body flexbox-align-center">
+                        <input name="from" type="date" value style="height: 49px;">
+                        <span class="m-l-8 m-r-8">〜</span>
+                        <input bane="to" type="date" value style="height: 49px;">
+                    </div>
+                </div>
+                <div class="contract_search_plan lg:ml-4">
+                    <div class="input_head">プラン</div>
+                    <div class="input_body select-wrap bg-white">
+                        <select name="action_id" class="custom-select">
+                            <option value>未選択</option>
+                            <option value="">カラーセラピー</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <p class="smt_hyoji m-b1 m-t2">
+            <i class="far fa-hand-point-right"></i>
+            右にスクロールできます
+        </p>
+        <div class="ellipsis_menu m-b2 flex justify-end">
+            <a href="#"></a>
+                <div class="ellipsis_menu_button">
+                    <a href="#"></a>
+                    <a href="#" tabindex="0">
+                        <i class="fas fa-ellipsis-h fa-fw"></i>
+                    </a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">印刷用ページを表示</a>
+                    </li>
+                </ul>
+            </div>
+        <div class="scroll memberMainContents nopadding">
+            <table class="rireki">
+                <tbody>
+                    <tr>
+                        <th width="90">
+                            契約No.
+                            <br>
+                            日付
+                        </th>
+                        <th>
+                            ユーザー
+                            <br>
+                            プラン
+                        </th>
+                        <th width="150" class="alignRight">金額</th>
+                        <th width="40"></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="rireki_kei">
+            <p class="rireki_gokei">合計: 円</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

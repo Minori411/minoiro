@@ -29,6 +29,7 @@
                 <div class="scoreBox consultant_summary m-t1 m-b2">
                     <div class="flexbox scoreBox_wrap">
                         <div class="scoreStatus review">
+                            <span class="scoreStatus_label">評価</span>
                             <span class="scoreStatus_star">
                                 <span class="yellow">
                                     <i class="fas fa-star"></i>
@@ -54,7 +55,7 @@
                                 <small>%</small>
                             </span>
                         </div>
-                        <div class="scoreStatus cpntract_manage flexbox">
+                        <div class="scoreStatus contract_manage flexbox">
                             <div class="scoreStatus_item relative">
                                 <span class="scoreStatus_label flexbox">累計</span>
                                 <span class="scoreStatus_score">447</span>
@@ -95,13 +96,13 @@
                     <label class="tab_item font-bold" for="introduction">自己紹介</label>
                     
                     <input id="plan" type="radio" name="tab_item">
-                    <label class="tab_item font-bold" for="introduction">プラン</label>
+                    <label class="tab_item font-bold" for="plan">プラン</label>
                     
-                    <input id="profileIndicator_items" type="radio" name="tab_item">
-                    <label class="tab_item font-bold" for="introduction">ブログ</label>
+                    <input id="post" type="radio" name="tab_item">
+                    <label class="tab_item font-bold" for="post">ブログ</label>
                     
                     <input id="review" type="radio" name="tab_item">
-                    <label class="tab_item font-bold" for="introduction">レビュー</label>
+                    <label class="tab_item font-bold" for="review">レビュー</label>
 
                     <div class="tab_content" id="introduction_content"></div>
 
@@ -125,15 +126,18 @@
                         <ul>
                             <li>
                                 <a href="#" data-method="post" data-confirm="ブロックすると、メッセージでのやりとりはできなくなります。また、このユーザーからは、あなたの
-                                プロフィールやプランなどの表示ができなくなります。このユーザーをブロックしますか？"></a>
+                                プロフィールやプランなどの表示ができなくなります。このユーザーをブロックしますか？">
+                                <i class="fas fa-ban fa-fw"></i>
+                                ユーザーをブロック
+                            </a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="alignCenter">
-                    <a href="" class="btn hanten m-b2" data-method="delete">
+                    <a href="#" class="btn m-b2" data-method="post">
                         <i class="far fa-user"></i>
-                        フォロー
+                        フォローする
                     </a>
                     <a href="#" class="btn hanten m-b2">
                         <i class="far fa-envelope"></i>

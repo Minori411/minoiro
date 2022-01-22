@@ -1,0 +1,297 @@
+.dashContent {
+    display: flex;
+    text-align: left;
+}
+
+.back_white {
+    background: #f4f8fa!important;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.p-t3 {
+    padding-top: 30px;
+}
+
+.dashContent_right {
+    flex: 1;
+    margin-left: 16px;
+    min-height: 0;
+    min-width: 0;
+
+    h1 {
+        padding: 0;
+        font-size: 28px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+}
+
+h1 {
+    line-height: 150%;
+    font-weight: 700;
+}
+
+.flexbox-justify-content-start {
+    justify-content: start;
+    -webkit-box-pack: start;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.flexbox-align-center {
+    align-items: center;
+}
+
+.contract_search_daterange {
+    input {
+        font-size: 16px;
+        padding: 0.5rem 0.2rem;
+        width: calc(50% - 15px)!important;
+        box-sizing: border-box;
+    }
+}
+
+input[type=date] {
+    margin:0;
+    outline: none;
+    appearance: none;
+    border: 1px solid #e4eaec;
+    min-height: 20px;
+    border-radius: 4px;
+    background: rgb(219, 216, 216);
+}
+
+.flexbox-justify-content-start {
+    justify-content: start;
+}
+
+.flexbox-align-center {
+    align-items: center;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+input {
+    line-height: normal;
+    overflow: visible;
+}
+
+.contract_search_plan {
+    width: 220px;
+    margin-left:1rem;
+    padding-right: 20px!important;
+}
+
+
+.contract_search_contents {
+
+    .input_head {
+        font-size: 12px;
+        font-weight: 600;
+        color: #888;
+        padding-bottom: 2px;
+    }
+
+    select {
+        margin: 0;
+        border-radius: 0;
+        outline: none;
+        padding: 15px 20px;
+        box-sizing: border-box;
+        border: 1px solid #e4eaec;
+        height: auto;
+        width: 220px;
+
+        option {
+            background: #fff;
+            color: #333;
+        }
+    }
+
+    .input_head {
+        font-size: 12px;
+        font-weight: 600;
+        color: #888;
+        padding-bottom: 2px;
+    }
+}
+
+.bg-white {
+    --bg-opacity: 1;
+    background: rgba(255,255,255,var(--bg-opacity));
+}
+
+.select-wrap {
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-break: break-all;
+}
+
+.smt_hyoji {
+    display: none!important;
+}
+
+.m-b1 {
+    margin-bottom: 10px;
+}
+
+.m-t2 {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.far {
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.flex {
+    display: flex;
+}
+
+.ellipsis_menu {
+    position: relative;
+    z-index: 100;
+
+    ul {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        border: 1px solid #eee;
+        z-index: 100;
+        border-radius: 8px;
+        overflow: hidden;
+
+        li:first-of-type {
+            border-top: none;
+        }
+
+        li {
+            display: block;
+            border-radius: 4px;
+
+            a {
+                background: #fff;
+                color: #444;
+                padding: 8px 20px;
+                width: 200px;
+                display: block;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.m-b2 {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #4f5050;
+}
+
+ul {
+    list-style: none;
+}
+
+.ellipsis_menu_button {
+    width: 40px;
+    height: 40px;
+    line-height: 43px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+}
+
+.fa-fw {
+    text-align: center;
+    width: 1.25rem;
+}
+
+.nopadding {
+    padding: 0!important;
+}
+
+.memberMainContents {
+    background: #fff;
+    border: 1px solid #f6f6f6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.rireki {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: none;
+    font-size: 13px;
+
+    th:first-child {
+        padding-left: 20px;
+    }
+
+    td,th {
+        background: #f6f7f8;
+        border: 1px solid #eee;
+        border-right: none;
+        border-left: none;
+        padding: 8px 10px;
+        margin: 0;
+    }
+
+    tr {
+        border-left: 1px solid #eee;
+        border-right: 1px solid #eee;
+    }
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.rireki_kei {
+    text-align: right;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.rireki_gokei {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
