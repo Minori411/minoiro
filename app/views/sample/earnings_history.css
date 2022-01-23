@@ -38,7 +38,7 @@
 
 h1 {
   line-height: 150%;
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 .justify-between {

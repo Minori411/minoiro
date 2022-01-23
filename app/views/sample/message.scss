@@ -1,0 +1,102 @@
+.dashContent {
+    display: flex;
+    text-align: left;
+}
+
+.back_white {
+    background: #f4f8fa!important;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.p-t3 {
+    padding-top: 30px;
+}
+
+.dashContent_right {
+    flex: 1;
+    margin-left: 16px;
+    min-height: 0;
+    min-width: 0;
+
+    h1 {
+        padding: 0;
+        font-size: 28px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+}
+
+h1 {
+    line-height: 150%;
+    font-weight: 700!important;
+}
+
+.flexbox-justify-content-space-between {
+    justify-content: space-between;
+}
+
+.flexbox-align-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.navbox {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbox_search {
+    flex: 1;
+    text-align: right;
+
+    .fa-search {
+        margin-left: -20px;
+        color: #777;
+    }
+
+    input {
+        width: 250px!important;
+        padding: 0 16px!important;
+        border: none!important;
+        border-radius: 20px!important;
+        margin-bottom: 20px!important;
+        height: 30px;
+        background: #fff!important;
+
+        
+    }
+}
+
+input[type=text] {
+    margin: 0;
+    outline: 0;
+    appearance: none;
+    box-sizing: border-box;
+    min-height: 44px;
+    font-size: 16px;
+
+    
+}
+
+input {
+    overflow: visible;
+
+    
+}
+
+.memberMsgBox {
+    background: #fff;
+    border: 1px solid #f6f6f6;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
