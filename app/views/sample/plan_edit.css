@@ -186,7 +186,7 @@ p {
   background: #fff;
   border: 1px solid #f6f6f6;
   overflow: hidden;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .plan_module_subject {
@@ -433,7 +433,8 @@ select {
 }
 
 .plan_module_submit {
-  background: #d7ccc8;
+  background: #bcaaa4;
+  border: #bcaaa4 !important;
 }
 
 .card-custom {
