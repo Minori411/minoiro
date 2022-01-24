@@ -806,6 +806,7 @@ body, html {
   textarea {
     height: 150px;
     width: 100%;
+    margin-top: 20px;
   }
 }
 
@@ -892,8 +893,72 @@ body, html {
     padding-right: 100px !important;
   }
   .status_unit_head select {
-    margin-right: 10px !important;
-    width: 10px;
+    width: 170% !important;
+  }
+}
+
+@media (max-width: 699px) {
+  .purpose-check {
+    width: 699px !important;
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: 699px) {
+  .planbox .left {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+  .planbox .left input[type=text], .planbox .left textarea {
+    width: 100%;
+  }
+}
+
+@media (max-width: 699px) {
+  .planbox .left input[type=text] {
+    width: 100% !important;
+  }
+  .planbox input {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 699px) {
+  .plan_module .planbox .pricebox {
+    margin: 8px 0 0;
+    width: 20%;
+  }
+  .plan_module .planbox .pricebox .yen {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media (max-width: 699px) {
+  .material {
+    display: block !important;
+  }
+}
+
+@media (max-width: 699px) {
+  .yen {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 699px) {
+  .use_purpose_checkboxes {
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: 699px) {
+  .btn-custom5 {
+    margin: 0 auto;
+    margin-left: 30px;
   }
 }
 /*# sourceMappingURL=plan_edit.css.map */
