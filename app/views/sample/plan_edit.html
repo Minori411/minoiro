@@ -268,7 +268,72 @@
                     </div>
                 </div>
                 <!--プラン入力-->
-                <div id="vapp" class="plan_module js-plan_input m-t2"></div>
+                <div id="vapp" class="plan_module js-plan_input m-t2">
+                    <div class="general_tab_wrapper">
+                        <div class="tab_content m-t1" id="beginner_content">
+                            <div class="boxbaseP30 plan_module js-addfield-block flex flex-wrap planbox m-b-20 z-depth-1" style="padding: 30px;">
+                                <div class="left">
+                                    <input type="text" placeholder="チャットでの相談" name="actions[0][title]" value="お試しプラン">
+                                </div>
+                                <div class="pricebox">
+                                    <input type="number" placeholder="10,000" name="actions[0][price]" value="3000" min="1000" max="10000">
+                                    円
+                                </div>
+                                <div class="item">
+                                    <div class="item_name flexbox">
+                                        <h3>料金体系</h3>
+                                        <span class="required_label">必須</span>
+                                    </div>
+                                    <p>
+                                    <label>
+                                        <input class="with-gap" name="group3" type="radio" checked />
+                                        <span>単発</span>
+                                    </label>
+                                    </p>            
+                                </div>
+                                <div class>
+                                    <div class="item_name flexbox">
+                                        <h3>相談方式</h3>
+                                        <span class="optional_label">任意</span>
+                                    </div>
+                                    <div class="chatbox1">
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" />
+                                            <span>チャット</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input type="checkbox" />
+                                            <span>ビデオ通話</span>
+                                        </label>
+                                    </p>
+                                </div>
+                                <div class="m-t2 left w100p">
+                                    <textarea name="actions[0][description]" class="w100p" placeholder="プランの内容を入力してください">まずはお試しで１〜2回のメッセージ往復相談に乗ります。</textarea>
+                                </div>
+                                <p>
+                                    <label>
+                                        <input type="checkbox" />
+                                        <span>中止</span>
+                                    </label>
+                                </p>
+                                </div>
+                                <div class="right m-b-20 smt_right m-t1" style="width:auto; margin-left:auto;">
+                                    <a class="waves-effect waves-light btn"> 
+                                        <i class="fas fa-times-circle"></i>
+                                        削除
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#" class="addedButton" data-template="<div class="boxbaseP30 plan_module js-addfield-block flex flex-wrap planbox m-b-20" style="padding:30px">
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--ステータス-->
                 <div class="boxbaseP30 plan_module z-depth-1">
                     <div class="in">
                         <div class="status_unit">
