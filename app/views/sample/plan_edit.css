@@ -572,7 +572,6 @@ select {
 
 .planbox textarea {
   min-height: 240px;
-  resize: none;
 }
 
 .planbox h3 {
