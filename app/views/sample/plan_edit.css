@@ -570,6 +570,11 @@ select {
   margin-bottom: 20px !important;
 }
 
+.planbox textarea {
+  min-height: 240px;
+  resize: none;
+}
+
 .planbox h3 {
   display: inline-block;
   width: auto;
@@ -650,5 +655,16 @@ select {
 
 .chat {
   margin-right: 10px;
+}
+
+.btn-custom7 {
+  background: #fff;
+  color: #ff5b5b;
+  border: 1px solid #ff5b5b;
+  border-radius: 4px;
+}
+
+.btn-custom7:hover {
+  background: #ff2828 !important;
 }
 /*# sourceMappingURL=plan_edit.css.map */

@@ -546,6 +546,11 @@ select {
 
 .planbox {
 
+    textarea {
+        min-height: 240px;
+        resize: none;
+    }
+
     h3 {
         display: inline-block;
         width: auto;
@@ -619,4 +624,15 @@ select {
 
 .chat {
     margin-right: 10px;
+}
+
+.btn-custom7 {
+    background: #fff;
+    color: #ff5b5b;
+    border: 1px solid #ff5b5b;
+    border-radius: 4px;
+
+    &:hover {
+        background: darken(#ff5b5b,10%)!important;
+    }
 }
