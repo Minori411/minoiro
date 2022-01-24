@@ -429,7 +429,6 @@ select {
 
 .status_unit select {
   width: 420px !important;
-  margin-left: 600px;
 }
 
 .plan_module_submit {
@@ -438,7 +437,11 @@ select {
 }
 
 .card-custom {
-  margin-right: 50px;
+  margin-right: 25px;
+}
+
+.card-custom2 {
+  margin-left: 25px;
 }
 
 .markdown-help {
@@ -665,5 +668,232 @@ select {
 
 .btn-custom7:hover {
   background: #ff2828 !important;
+}
+
+@media (max-width: 1200px) {
+  .inner {
+    max-width: 1100px;
+    width: 97% !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+  .inner {
+    margin: 0 20px !important;
+  }
+}
+
+body {
+  background: #f4f8fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+body, html {
+  margin: 0 auto;
+  padding: 0;
+  color: #333;
+  text-rendering: optimizeLagibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-feature-settings: "pkna";
+          font-feature-settings: "pkna";
+  letter-spacing: .01em;
+  font-size: 15px;
+  word-break: break-all;
+}
+
+@media (max-width: 699px) {
+  .back_white {
+    font-size: 14px;
+  }
+  .back_white p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 699px) {
+  .inner {
+    margin: 0 auto;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 699px) {
+  .dashContent_right {
+    margin-top: 20px;
+    margin-left: 1px;
+  }
+}
+
+@media (max-width: 699px) {
+  .alert,
+  .alert-info {
+    padding: 8px 16px 8px 42px;
+  }
+}
+
+@media (max-width: 699px) {
+  .alert-info {
+    font-size: 12px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 699px) {
+  .alert p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 699px) {
+  .plan_preview {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 800px) {
+  .small {
+    font-size: 10px !important;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 960px) {
+  .custom-btn3 {
+    font-size: 12px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 699px) {
+  .boxbaseP30 {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 699px) {
+  .plan_module_subject {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 699px) {
+  .plan_module .form_item_head {
+    display: block;
+  }
+  .plan_module .form_item_head h3 {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 699px) {
+  .required_label {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 699px) {
+  textarea {
+    height: 150px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+  .plan_edit_unit {
+    padding: 24px 4%;
+  }
+}
+
+@media (max-width: 800px) {
+  .m-t1 {
+    font-size: 10px;
+    word-break: break-word !important;
+  }
+}
+
+@media (max-width: 699px) {
+  .plan_module_subject {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 699px) {
+  .plan_select_buttons {
+    display: block !important;
+  }
+}
+
+@media (max-width: 699px) {
+  .card-custom {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 699px) {
+  .card-custom2 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 699px) {
+  .plan_module_subject {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 699px) {
+  .plan_module_submit_buttons {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (max-width: 699px) {
+  .custom-btn {
+    width: 24%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 699px) {
+  .custom-btn2 {
+    width: 100% !important;
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 699px) {
+  .status_unit_head_label {
+    width: 40% !important;
+    padding-top: 0 !important;
+  }
+}
+
+@media (max-width: 699px) {
+  .status_unit_head_select {
+    width: 60% !important;
+  }
+}
+
+@media (max-width: 699px) {
+  .status_unit_head {
+    padding-right: 100px !important;
+  }
+  .status_unit_head select {
+    margin-right: 10px !important;
+    width: 10px;
+  }
 }
 /*# sourceMappingURL=plan_edit.css.map */
