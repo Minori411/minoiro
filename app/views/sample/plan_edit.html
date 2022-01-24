@@ -270,15 +270,24 @@
                 <!--プラン入力-->
                 <div id="vapp" class="plan_module js-plan_input m-t2">
                     <div class="general_tab_wrapper">
+                        <div class="plan_create_title m-t2">
+                            <span class="plan_module_subject plan_module_PlanTitle">
+                                プランを作成する
+                            </span>
+                            <a class="waves-effect waves-light btn btn-custom6">中止しているプランを表示</a>
+                        </div>
+                        <!--初心者向け-->
                         <div class="tab_content m-t1" id="beginner_content">
                             <div class="boxbaseP30 plan_module js-addfield-block flex flex-wrap planbox m-b-20 z-depth-1" style="padding: 30px;">
+                            <div class="material">
                                 <div class="left">
                                     <input type="text" placeholder="チャットでの相談" name="actions[0][title]" value="お試しプラン">
                                 </div>
                                 <div class="pricebox">
                                     <input type="number" placeholder="10,000" name="actions[0][price]" value="3000" min="1000" max="10000">
-                                    円
+                                    <span class="yen">円</span>
                                 </div>
+                            </div>
                                 <div class="item">
                                     <div class="item_name flexbox">
                                         <h3>料金体系</h3>
@@ -287,10 +296,50 @@
                                     <p>
                                     <label>
                                         <input class="with-gap" name="group3" type="radio" checked />
-                                        <span>単発</span>
+                                        <span class="once">単発</span>
                                     </label>
                                     </p>            
                                 </div>
+
+                                <div class style="width: 100%">
+                                    <div class="item_name flexbox">
+                                        <h3>対応項目</h3>
+                                        <span class="optional_label">任意</span>
+                                    </div>
+                                    <div class="use_purpose_checkboxes">
+                                        <p>
+                                            <label class="purpose-check">
+                                                <input type="checkbox" />
+                                                <span>Red</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label class="purpose-check">
+                                                <input type="checkbox" />
+                                                <span>Red</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label class="purpose-check">
+                                                <input type="checkbox" />
+                                                <span>Red</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label class="purpose-check">
+                                                <input type="checkbox" />
+                                                <span>Red</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label class="purpose-check">
+                                                <input type="checkbox" />
+                                                <span>Red</span>
+                                            </label>
+                                        </p>
+                                    </div>
+                                </div>
+
                                 <div class>
                                     <div class="item_name flexbox">
                                         <h3>相談方式</h3>
@@ -300,13 +349,13 @@
                                     <p>
                                         <label>
                                             <input type="checkbox" />
-                                            <span>チャット</span>
+                                            <span class="chat">チャット</span>
                                         </label>
                                     </p>
                                     <p>
                                         <label>
                                             <input type="checkbox" />
-                                            <span>ビデオ通話</span>
+                                            <span class="video">ビデオ通話</span>
                                         </label>
                                     </p>
                                 </div>
@@ -327,8 +376,9 @@
                                     </a>
                                 </div>
                             </div>
-                            <a href="#" class="addedButton" data-template="<div class="boxbaseP30 plan_module js-addfield-block flex flex-wrap planbox m-b-20" style="padding:30px">
-                                
+                            <a class="waves-effect waves-light btn-large btn-custom5">
+                                <i class="fas fa-plus"></i>                                
+                                さらにプランを追加する
                             </a>
                         </div>
                     </div>

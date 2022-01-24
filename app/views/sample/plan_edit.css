@@ -512,4 +512,143 @@ select {
   width: 35%;
   border-radius: 4px;
 }
+
+.btn-custom5 {
+  background: #fff;
+  color: #ff6e00;
+  border: 2px solid #ff6e00;
+  border-radius: 99px;
+  width: 300px;
+  margin-bottom: 20px !important;
+  margin-left: 400px;
+}
+
+.btn-custom6 {
+  font-size: 12px;
+  background: #f0f8f9;
+  color: #ff6e00;
+  border: 1px solid #ff6e00;
+  width: 190px;
+}
+
+.btn-custom6:hover {
+  background: #994200;
+}
+
+.m-t2 {
+  margin-top: 20px;
+}
+
+.plan_create_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.plan_module_PlanTitle {
+  display: block;
+}
+
+.plan_module_subject {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.gengeral_tab_wrapper {
+  overflow: hidden;
+}
+
+.m-t1 {
+  margin-top: 10px;
+}
+
+.m-b-20 {
+  margin-bottom: 20px !important;
+}
+
+.planbox h3 {
+  display: inline-block;
+  width: auto;
+  font-size: 17px;
+  margin-right: 7px;
+}
+
+.planbox .item_name {
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.planbox .item {
+  width: 100%;
+}
+
+.planbox .left input[type=text] {
+  width: 400px !important;
+}
+
+.material {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pricebox {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.yen {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.optional_label {
+  border: 2px solid #666;
+  color: #666;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 0 7px;
+  margin: 0 4px;
+  height: 20px;
+}
+
+.use_purpose_checkboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.purpose-check {
+  margin-right: 10px;
+  color: #333;
+}
+
+.once {
+  color: #333;
+}
+
+.chatbox1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333;
+}
+
+.chat,
+.video {
+  color: #333;
+}
+
+.chat {
+  margin-right: 10px;
+}
 /*# sourceMappingURL=plan_edit.css.map */
