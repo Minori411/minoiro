@@ -135,8 +135,8 @@ h1,h2,h3,h4,h5,h6{
     display: inline-block;
 }
 
-.top-case {
-    padding: 80px 4% 56px;
+.top-feature {
+    padding: 70px 0px 0px 0px;
     background: #fff;
 }
 
@@ -362,11 +362,59 @@ input[type=checkbox]:read-only{
 }
 
 .grid {
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 .card-image {
     img {
         background: #efebe9;
     }
+}
+
+.top-case {
+    padding: 80px 4% 56px;
+    background: #efebe9;
+}
+
+.heading {
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.heading-copy {
+    display: block;
+    font-size: 34px;
+}
+
+.top-case_body {
+    max-width: 1160px;
+    margin: 64px auto 0;
+}
+
+.heading-support {
+    margin-top: 20px;
+}
+
+.top-case_body {
+    display: flex;
+    margin-left: 125px;
+}
+
+.top-container_under_wrapper {
+    margin-top: 0px;
+    color: #ff6e00;
+    font-size: 34px;
+    display: block;
+    text-align: center;
+}
+
+.arrow {
+    display: block;
+    color:#6d4c41;
+    text-align: center;
 }
