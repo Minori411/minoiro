@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-keyVisual_lead {
-  font-size: 16px;
+  font-size: 20px;
   display: block;
 }
 
@@ -225,33 +225,6 @@ body {
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
-}
-
-#nav-close, #nav-content {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  -webkit-transition: .3s;
-  transition: .3s;
-}
-
-#nav-close {
-  display: none;
-  z-index: 99;
-  width: 100%;
-  background: #000;
-  opacity: 0;
-}
-
-#nav-content {
-  overflow: auto;
-  z-index: 9999;
-  width: 80%;
-  max-width: 330px;
-  background: #fff;
-  -webkit-transform: translateX(-105%);
-          transform: translateX(-105%);
 }
 
 .bggray {
