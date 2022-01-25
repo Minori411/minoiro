@@ -367,6 +367,7 @@ input[type=checkbox]:read-only {
 
 .minoiro {
   margin-top: 5px;
+  white-space: nowrap;
 }
 
 .grid {
@@ -425,5 +426,30 @@ h2 {
   display: block;
   color: #6d4c41;
   text-align: center;
+}
+
+.top-conversion {
+  padding: 72px 4%;
+  background: #fff;
+}
+
+.top-conversion-text {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+.top-conversion_buttons {
+  margin: 24px auto;
+  max-width: 240px;
+}
+
+.minoiro2 {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=index.css.map */
