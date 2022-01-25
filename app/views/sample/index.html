@@ -4,158 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/224f2824f8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="plan_edit.css">
+    <script src="plan_edit.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="index.css">
     <title>みのいろ</title>
 </head>
 <body>
-    <div class="v-app">
-        <header class="header pc_hyoji mini">
-            <div class="header_inner">
-                <div class="header_inner_head flexbox">
-                    <div id="logo">
-                        <a href="∠" class="flexbox">
-                            <p>みのいろ</p>
-                        </a>
-                    </div>
-                    <ul class="menu gnav flexbox">
-                        <li class="menu_item flexbox">
-                            <a href="#">コンサルタントを探す</a>
-                        </li>
-                        
-                        <li class="menu_item flexbox">
-                            <a href="#">ブログ</a>
-                        </li>
-                    </ul>
-            <nav class=" navi auth_buttons flexbox">
-                <div class="search">
-                    <form method="GET" action="" accept-charset="UTF-8">
-                    <div class="relative">
-                <input id="q" placeholder="カテゴリ検索" name="q" type="text">
-                <div class="absolute center-v right-1 gray2 header_search">
-                <i class="fa fa-search"> </i>
-            </div>
-            </div>
-                    </form>
-            </div>
-                <div class="navi_login">
-                    <a href="#" tabindex="0" class="button">ログイン</a>
-                </div>
-                <div class="navi_entry">
-                    <a href="#" tabindex="0" class="button primaryButton">無料登録</a>
-                </div>
-                </nav>
-            </div>
-            </div>
-        </header>
-        <header class="header smt_hyoji">
-            <div class="header_inner flexbox">
-                <div id="nav-drawer" class="header_inner_head flexbox">
-                    <div id="logo">
-                        <a href="#" class="flexbox">
-                            <img src="">
-                            みのいろ
-                        </a>
-                    </div>
-                    <div class="login">
-                        <a href="#">ログイン</a>
-                    </div>
-                    <div class="navi_entry">
-                        <a href="#" tabindex="0" class="button primaryButton">登録</a>
-                    </div>
-                    <div class="menu_icon menu_icon_last">
-                        <label id="nav-open" for="nav-input">
-                            <i class="fas fa-bars"></i>
-                        </label>
-                    </div>
-                    <label id="nav-close" for="nav-input" class="nav-unshown"></label>
-                    <div id="nav-content">
-                        <div class="flex">
-                            <div class="search">
-                                <form method="GET" action="" accept-charset="UTF-8">
-                                    <input id="q" placeholder="コンサルタントを検索" name="q" type="text" class="w90p">
-                                </form>
-                            </div>
-                        </div>
-                        <ul class="p-b2 bggray">
-                            <a href="#">
-                                <li>
-                                    <i class="fas fa-unlocke-alt"></i>
-                                    ログイン
-                                </li>
-                            </a>
-                            <a href="#" class="free_submit">
-                                <li>
-                                    <i class="#"></i>
-                                    無料登録
-                                </li>
-                            </a>
-                        </ul>
-                        <ul class="p-b2 bggray">
-                            <a href="#">
-                                <li>
-                                    <i class="fas fa-question-circle"></i>
-                                    みのいろとは？（コンサルタント向け)
-                                </li>
-                            </a>
-                            <a href="#">
-                                <li>
-                                    <i class="fas fa-question-circle"></i>
-                                    みのいろとは？（お客様向け)
-                                </li>
-                            </a>
-                            <a href="#">
-                                <li>
-                                    <i class="fas fa-home"></i>
-                                    HOME
-                                </li>
-                            </a>
-                            <a href="#"></a>
-                            <a href="#">
-                                <li>
-                                    <i class="fas fa-chevron-right"></i>
-                                        コンサルタントを探す
-                                </li>
-                            </a>
-                            <a href="#">
-                                <li>
-                                    <i class="fas fa-chevron-right"></i>
-                                        ブログ
-                                </li>
-                            </a>
-                        </ul>
-                        <ul class="p-b2 bggray">
-                            <a href="#">
-                                <li>ビジョン</li>
-                            </a>
-                            <a href="#">
-                                <li>利用規約</li>
-                            </a>
-                            <a href="#">
-                                <li>個人情報保護法</li>
-                            </a>
-                            <a href="#">
-                                <li>お問い合わせ</li>
-                            </a>
-                            <a href="#">
-                                <li>退会</li>
-                            </a>
-                        </ul>
-                    </div>
-                </div>
-                <div class="menu flexbox">
-                    <ul>
-                        <li class="menu_item">
-                            <a href="#">コンサルタントを探す</a> 
-                        </li>
-                        <li class="menu_item">
-                            <a href="#">ブログ</a> 
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-        </div> 
     <main id="app" data-action="home">
         <section class="top-keyVisual">
             <div class="top-keyVisual_container">
@@ -192,15 +51,26 @@
             <div class="top-container_body">
                 <!--中枠-->
                 <div class="top-container_item grid img_left">
-                    <div class="top-container_img item-img">
-                        <img src="" loading="lazy" width="100">
-                    </div>
-                    <div class="top-container_text item-text flexbox">
-                        <div class="item-text_body">
+                    <div class="row">
+                        <div class="col s12 m7">
+                          <div class="card">
+                            <div class="card-image">
+                              <img src="/img/clock.jpg">
+                              <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                              <p>I am a very simple card. I am good at containing small bits of information.
+                              I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                              <a href="#">This is a link</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                             <h4 class="item-copy color-main">即日取れる<br>カウンセリング予約</h4>
                             <p class="item-description">
                                 最短１時間後から予約可能。「今、コンサルしたい」時にもご利用いただけます。
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -261,72 +131,6 @@
         <h3>おすすめブログ</h3>
     </div>
 
-    <footer>
-        <div class="footer_sitemap menu">
-            <div class="footer_sitemap_logo">
-                <a href="∠" class="flexbox">
-                    <p>みのいろ</p>
-                </a>
-                <p class="footer_sitemap_description">あなたの色を見つけよう</p>
-            </div>
-            <nav>
-                <h5>About</h5>
-                <ul>
-                    <li>
-                        <a href="#">お客様ご利用ガイド</a>
-                    </li>
-                    <li>
-                        <a href="#">コンサルタントご利用ガイド</a>
-                    </li>
-                    <li>
-                        <a href="#">ビジョン</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav>
-                <h5>Help</h5>
-                <ul>
-                    <li>
-                        <a href="#">問い合わせ</a>
-                    </li>
-                    <li>
-                        <a href="#">退会</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav>
-                <h5>Legal</h5>
-                <ul>
-                    <li>
-                        <a href="#">利用規約</a>
-                    </li>
-                    <li>
-                        <a href="#">特定商取引における表記</a>
-                    </li>
-                    <li>
-                        <a href="#">個人情報保護法</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav>
-                <h5>Links</h5>
-                <ul>
-                    <li>
-                        <a href="#">コンサルタントを探す</a>
-                    </li>
-                    <li>
-                        <a href="#">ブログ</a>
-                    </li>
-                    <li>
-                        <a href="#">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="#">Instagram</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
 </body>
 </html>
 
