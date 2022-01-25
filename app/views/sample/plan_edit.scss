@@ -59,14 +59,11 @@ h1 {
     color: #070560;
     background: #e2ecfb;
     padding: 8px 16px 8px 40px;
-    padding-top: 7px!important;
-    margin-bottom: 10px;
     border: 1px solid #d1dbea;
     border-radius: 4px;
     box-sizing: border-box;
     position: relative;
     line-height: 1.5;
-    height: 40px;
 }
 
 .custom-btn {
@@ -95,7 +92,7 @@ h1 {
 }
 
 .alert {
-    padding-left: 0!important;
+    padding-left: 10px!important;
 
     a {
         color: #ff6e00!important;
@@ -406,6 +403,8 @@ select {
 .status_unit {
     select {
         width: 420px!important;
+        margin-left: 600px;
+        margin-right:0!important;
     }
 }
 
@@ -499,9 +498,9 @@ select {
     color:#ff6e00;
     border: 2px solid #ff6e00;
     border-radius: 99px;
-    width: 300px;
+    width: 100%;
     margin-bottom: 20px!important;
-    margin-left: 400px;
+    
 }
 
 .btn-custom6 {
@@ -583,6 +582,13 @@ select {
 .pricebox {
     margin-left: 20px;
     display: flex;
+    width: 90px;
+}
+
+@media (max-width: 699px) {
+    .pricebox {
+        width: 70px!important;
+    }
 }
 
 .yen {
@@ -694,6 +700,10 @@ body,html {
     .dashContent_right {
         margin-top: 20px;
         margin-left: 1px;
+
+        h1 {
+            font-size: 24px!important;
+        }
     }
 }
 
@@ -707,7 +717,6 @@ body,html {
 @media (max-width: 699px) {
     .alert-info {
         font-size: 12px;
-        padding-bottom: 40px;
     }
 }
 
@@ -722,13 +731,26 @@ body,html {
 @media (max-width: 699px) {
     .plan_preview {
         padding: 8px;
+        position: sticky!important;
+        top: 0!important;
+        z-index: 7!important;
+        padding: 8px 0;
+        box-sizing: border-box;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0 1px;
     }
 }
 
 @media (max-width: 800px){
     .small {
         font-size: 10px!important;
-        white-space:nowrap;
+/* その上で、下記を指定する。word-breakと併せて指定しましょう */
+        overflow-wrap: break-word;
+        
+        /* その上で、下記のいずれかを指定する。overflow-wrapと併せて指定しましょう */
+        word-break: break-word;
+        word-break: break-all;   
     }
 }
 
@@ -831,7 +853,7 @@ body,html {
 
 @media (max-width: 699px) {
     .custom-btn {
-        width: 24%;
+        width: 100%!important;
         padding: 0;
     }
 }
@@ -840,36 +862,96 @@ body,html {
     .custom-btn2 {
         width: 100%!important;
         margin-left: 12px;
+        white-space: normal;
     }
 }
 
 @media (max-width: 699px) {
 
-        .status_unit_head_label {
-            width: 40%!important;
-            padding-top: 0!important;
-        }
+    .status_unit_head_label {
+        padding-top: 0!important;
+        white-space: nowrap;
+        
     }
+}
 
 
 @media (max-width: 699px) {
-    
-        .status_unit_head_select {
-            width: 60%!important;
+    .status_unit {
+        select {
+            margin-left: 100px!important;
+            margin-right: 10px!important;
+            width: 100%;
         }
     }
+}
+
+
+@media (max-width: 699px) {
+    .status_unit_head_select {
+        width: 60%!important;
+    }
+}
 
 
 @media (max-width: 699px) {
     .status_unit_head {
-
-    padding-right: 100px!important;
-
-    select {
-        width: 170%!important;
+        select {
+            width: 100%!important;
+            margin-right: 0!important;
+            padding-right: 0!important;
+            margin-left: 80px!important;
     }
 }
 }
+
+@media (max-width: 300px) {
+    .custom-btn,
+    .custom-btn2,
+    .boxbaseP30 {
+        font-size: 8px!important;
+        padding: 20px 10px;
+    }
+
+
+    
+}
+
+
+
+    .custom-btn {
+        margin-left: 65px;
+    }
+
+    .custom-btn2 {
+        width: 600px!important;
+        margin-right: 10px!important;
+    }
+
+    .main_button {
+        width: 1280px;
+    }
+
+@media (max-width: 300px) {
+    .status_unit_head {
+        select {
+            margin-left: 10px!important;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .status_unit_head_label {
+        white-space: nowrap;
+    }
+    .status_unit_head {
+        select {
+            margin-left: 400px;
+        }
+    }
+}
+
+
 
 @media (max-width: 699px) {
     .purpose-check {
@@ -942,9 +1024,51 @@ body,html {
 }
 
 @media (max-width: 699px) {
-    .btn-custom5 {
-        margin: 0 auto;
-        margin-left: 30px;
+    .custom-btn {
+        margin-right: 0;
+        margin-left: 0;
+        width: 40%!important;
+        font-size: 13px;
+        padding: 5px 5px 5px 5px;
     }
 }
 
+@media (max-width: 699px) {
+    .custom-btn2 {
+        margin-right: 0;
+        width: 70%;
+        font-size: 13px;
+        padding: 5px 5px 5px 5px;
+
+        
+    }
+}
+
+@media (max-width: 699px) {
+    .main_button {
+        a {
+            /* その上で、下記を指定する。word-breakと併せて指定しましょう */
+            overflow-wrap: break-word;
+            
+            /* その上で、下記のいずれかを指定する。overflow-wrapと併せて指定しましょう */
+            word-break: break-word;
+            word-break: break-all;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .custom-btn {
+        width: 40%!important;
+        margin-left: 0!important;
+    }
+
+    .custom-btn2 {
+        width: 100%!important;
+        margin-right: 0!important;
+    }
+
+    .main_button {
+        width: 100%!important;
+    }
+}

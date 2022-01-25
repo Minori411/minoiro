@@ -74,9 +74,11 @@
                                 <div id="vapp2">
                                     <div>
                                         <div class="select-wrap">
-                                            <select name="category_id[]">
-                                                <option value="1">カラーコンサルティング</option>
-                                                <option value="2">数秘</option>
+                                            <select class="browser-default">
+                                                <option value="" disabled selected>Choose your option</option>
+                                                <option value="1">Option 1</option>
+                                                <option value="2">Option 2</option>
+                                                <option value="3">Option 3</option>
                                             </select>
                                         </div>
                                         <div class="mt-6">
@@ -390,17 +392,12 @@
                         <div class="status_unit">
                             <div class="status_unit_head flexbox">
                                 <h3 class="status_unit_head_label">ステータス</h3>
-                                <div class="status_unit_head_select">
-                                    <div class="form-group">
-                                        <div class="select-wrap">
-                                            <select class="js-judgement-status" name="status">
-                                                <option value="accept">相談できます</option>
-                                                <option value="busy">今、忙しいです</option>
-                                                <option value="hidden">表示しない</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
+                                    <select class="browser-default">
+                                        <option value="" disabled selected>Choose your option</option>
+                                        <option value="1">相談できます</option>
+                                        <option value="2">今、忙しいです</option>
+                                        <option value="3">表示しない</option>
+                                    </select>
                             </div>
                             <div class="status_unit_head_body">
                                 <p class="small">今、忙しいです : コンサルタント一覧には表示されますが契約できなくなります</p>
@@ -410,16 +407,11 @@
                         <div class="status_unit">
                             <div class="status_unit_head flexbox">
                                 <h3 class="status_unit_head_label">コンセント</h3>
-                                <div class="status_unit_head_select">
-                                     <div class="form-group">
-                                         <div class="select-wrap">
-                                             <select name="contract_status">
-                                                 <option value="no">承認なし</option>
-                                                 <option value="yes">承認あり</option>
-                                             </select>
-                                         </div>
-                                     </div>
-                                </div>
+                                    <select class="browser-default">
+                                        <option value="" disabled selected>Choose your option</option>
+                                        <option value="1">承認あり</option>
+                                        <option value="2">承認なし</option>
+                                    </select>
                             </div>
                             <div class="status_unit_head_body">
                                 <p class="small">承認あり : コンサルタントが契約を承認後のみ契約可能</p>
@@ -432,7 +424,7 @@
                     <div class="plan_module_submit_buttons alignCenter center">
                         <div class="main_button flexbox">
                             <a class="waves-effect waves-light btn-large custom-btn">下書き</a>
-                            <a class="waves-effect waves-light btn-large custom-btn2">コンサルティングプランを保存する</a>
+                            <a class="waves-effect waves-light btn-large custom-btn2">コンサルティングプランを提出する</a>
                         </div>
                     </div>
                 </div>
