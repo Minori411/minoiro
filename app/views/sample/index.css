@@ -409,4 +409,20 @@ p {
 .collapsible-header img {
   margin-right: 10px;
 }
+
+.collapsible-body {
+  margin: 0 auto !important;
+}
+
+.collapsible-body span {
+  text-align: cneter;
+}
+
+.collapsible-body .bottle_select {
+  margin-left: 150px;
+  background: #ff6e00;
+  font-weight: 700;
+  border-radius: 4px;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=index.css.map */
