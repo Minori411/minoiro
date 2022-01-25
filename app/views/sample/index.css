@@ -129,14 +129,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 100px;
 }
 
-.buttons_link {
-  color: #4f5050;
-  font-size: 12px;
-  font-weight: 600;
-  margin-right: 12px;
-  display: inline-block;
-}
-
 .top-feature {
   padding: 70px 0px 0px 0px;
   background: #fff;
@@ -204,10 +196,6 @@ body {
   min-height: 100vh;
 }
 
-#nav-open {
-  display: inline-block;
-}
-
 .menu_icon_last label {
   margin-right: 0;
   margin-left: 20px;
@@ -252,33 +240,6 @@ ul {
 
 .bggray li {
   background: #fff;
-}
-
-input[type=checkbox]:-moz-read-only {
-  color: #ccc !important;
-  border-color: #ccc !important;
-}
-
-input[type=checkbox]:read-only {
-  color: #ccc !important;
-  border-color: #ccc !important;
-}
-
-.nav-unshown {
-  display: none;
-}
-
-[type=checkbox] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0;
-}
-
-#nav-drawer {
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .triple-cards {
@@ -347,8 +308,13 @@ input[type=checkbox]:read-only {
   margin-right: 60px;
 }
 
+.card {
+  border-radius: 8px !important;
+}
+
 .card-image img {
   background: #efebe9;
+  border-radius: 8px !important;
 }
 
 .top-case {
@@ -424,5 +390,23 @@ p {
 
 .minoiro2 {
   margin-top: 20px;
+}
+
+.popout {
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.popout li {
+  border: 2px solid #a1887f !important;
+}
+
+.collapsible-header {
+  padding-top: 22px !important;
+}
+
+.collapsible-header img {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=index.css.map */
