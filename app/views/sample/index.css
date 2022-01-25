@@ -404,6 +404,7 @@ p {
 
 .collapsible-header {
   padding-top: 22px !important;
+  font-weight: 700;
 }
 
 .collapsible-header img {
