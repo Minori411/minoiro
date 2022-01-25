@@ -312,7 +312,7 @@ input[type=checkbox]:read-only {
 
 .card {
   width: 300px;
-  height: 30%;
+  height: 500px;
 }
 
 .img-resize {
@@ -320,5 +320,17 @@ input[type=checkbox]:read-only {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.small-text {
+  font-size: 10px;
+  margin-top: 40px !important;
+}
+
+.card-title {
+  font-size: 18px !important;
+  color: #ff6e00;
+  font-weight: 800 !important;
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */
