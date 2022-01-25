@@ -314,4 +314,11 @@ input[type=checkbox]:read-only {
   width: 300px;
   height: 30%;
 }
+
+.img-resize {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=index.css.map */
