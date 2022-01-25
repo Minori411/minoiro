@@ -1,7 +1,3 @@
-.top-keyVisual_img img {
-  margin-bottom: 10px !important;
-}
-
 a, a:hover {
   text-decoration: none;
 }
@@ -66,7 +62,7 @@ ul {
   height: 560px;
   line-height: 1.5;
   overflow: hidden;
-  border: solid 1px #999999;
+  background: #efebe9;
 }
 
 .top-keyVisual h1 {
@@ -84,7 +80,8 @@ ul {
 }
 
 .top-keyVisual_title {
-  padding-top: 120px;
+  padding-top: 20px;
+  padding-bottom: 23px;
   display: block;
   width: 55%;
   margin-right: 45%;
@@ -116,12 +113,14 @@ h1, h2, h3, h4, h5, h6 {
 .top-keyVisual_img {
   position: absolute;
   left: 60%;
-  top: 50%;
+  top: 20%;
 }
 
 .top-keyVisual_img img {
-  width: 100%;
-  height: 450px;
+  width: 550px;
+  height: 550px;
+  padding-bottom: 30px !important;
+  background: #efebe9;
 }
 
 .top-register_buttons {
@@ -195,7 +194,6 @@ ul li {
 }
 
 body {
-  background: #f4f8fa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -310,7 +308,7 @@ input[type=checkbox]:read-only {
           align-items: center;
 }
 
-.card {
+.triple-cards {
   width: 300px;
   height: 500px;
 }
@@ -332,5 +330,38 @@ input[type=checkbox]:read-only {
   color: #ff6e00;
   font-weight: 800 !important;
   text-align: center;
+}
+
+.card-custom {
+  display: inline-block !important;
+  font-weight: 700;
+}
+
+.card .start-now {
+  width: 300px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+
+.row {
+  margin-left: 100px !important;
+}
+
+.top-card {
+  width: 500px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.test-login {
+  width: 300px;
+  margin-left: 100px;
+  background: #fff;
+  color: #ff6e00;
+  border: 2px solid #ff6e00;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 /*# sourceMappingURL=index.css.map */
