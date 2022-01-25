@@ -344,7 +344,7 @@ input[type=checkbox]:read-only {
   margin-left: 100px;
 }
 
-.row {
+.top-cards {
   margin-left: 100px !important;
 }
 
@@ -363,5 +363,17 @@ input[type=checkbox]:read-only {
   border-radius: 4px;
   margin-bottom: 20px;
   margin-top: 40px;
+}
+
+.minoiro {
+  margin-top: 5px;
+}
+
+.grid {
+  margin-right: 40px;
+}
+
+.card-image img {
+  background: #efebe9;
 }
 /*# sourceMappingURL=index.css.map */
