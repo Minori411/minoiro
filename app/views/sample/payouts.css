@@ -355,11 +355,19 @@ ul {
   left: 100px;
   height: auto;
   background: #fff;
-  -webkit-box-shadow: 2px 5px 4px 0 rgba(0, 0, 0, 0.13);
-          box-shadow: 2px 5px 4px 0 rgba(0, 0, 0, 0.13);
   border-radius: 4px;
   border: 1px solid #eee;
   z-index: 100;
+  width: 170px;
+  padding-left: 0;
+}
+
+.dashContent_sidemenu li:hover ul li a {
+  text-align: center;
+}
+
+.dashContent_sidemenu li:hover ul li a:hover {
+  color: #ffa866 !important;
 }
 
 .dashContent_sidemenu li:hover ul li {
