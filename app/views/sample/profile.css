@@ -392,6 +392,32 @@ p {
   }
 }
 
+@media (min-width: 960px) and (max-width: 1200px) {
+  .inner {
+    margin: 0 20px !important;
+  }
+}
+
+@media (max-width: 699px) {
+  .userProfleHeader {
+    padding: 16px 4%;
+  }
+}
+
+@media (max-width: 699px) {
+  .userProfileHeader_inner {
+    margin: 0;
+  }
+}
+
+@media (max-width: 699px) {
+  .userProfileHeader_icon .size125 {
+    width: 80px;
+    height: 80px;
+    border: none;
+  }
+}
+
 .userProfileSide {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -401,5 +427,91 @@ p {
 
 .m-b1 {
   margin-bottom: 10px;
+}
+
+@media (max-width: 699px) {
+  .userProfileHeader_name {
+    font-size: 15px;
+    width: calc(100% - 96px);
+    padding-bottom: 0;
+    line-height: 1.5;
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 699px) {
+  h1 {
+    padding: 30px 10px 10px;
+  }
+}
+
+@media (max-width: 699px) {
+  .userProfileHeader_name .snsicon {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 699px) {
+  .inner {
+    margin: 0 auto;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .inner {
+    max-width: 1100px;
+    width: 97% !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
+@media (max-width: 699px) {
+  .customer_summary .contract_manage {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 699px) {
+  .scoreBox .contract_manage {
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+  .scoreBox .scoreStatus_score {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 699px) {
+  .userProfile .tab_wrapper .tab_item {
+    font-size: .8rem;
+    padding: 10px 8px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 699px) {
+  .boxbaseP30 {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 699px) {
+  .scoreBox .scoreStatus_lists {
+    border: none;
+  }
+  .scoreBox .scoreStatus_lists .scoreStatus_list {
+    display: block;
+  }
+  .scoreBox .scoreStatus_lists .scoreStatus_list .scoreStatus_list_label {
+    padding-left: 0;
+    font-size: 10px;
+  }
+  .scoreBox .scoreStatus_lists .scoreStatus_list span {
+    display: block;
+  }
 }
 /*# sourceMappingURL=profile.css.map */
