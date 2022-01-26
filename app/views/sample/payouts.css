@@ -42,6 +42,12 @@
   color: #333;
 }
 
+@media (max-width: 1200px) {
+  .dashContent_right {
+    margin-left: 0;
+  }
+}
+
 h1 {
   line-height: 150%;
   font-weight: 700;
@@ -220,5 +226,98 @@ input {
 
 .alignRight {
   text-align: right;
+}
+
+@media (max-width: 699px) {
+  .back_white {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 699px) {
+  .inner {
+    margin: 0 auto;
+    padding: 0 !important;
+    max-width: 1100px;
+    width: 97%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
+@media (max-width: 699px) {
+  .dashConetnt {
+    margin-top: 20px;
+    margin-left: 1px;
+  }
+}
+
+@media (max-width: 960px) {
+  .month_head {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 960px) {
+  .rireki_form {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .rireki_form {
+    margin: 16px 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .month_head .left {
+    display: block;
+  }
+}
+
+@media (max-width: 699px) {
+  .rireki_calendar {
+    padding-left: 48px;
+    display: block;
+  }
+}
+
+@media (max-width: 699px) {
+  .rireki_calendar input[type=date] {
+    width: 90%;
+  }
+  .rireki_calendar .input[type=date]:last-of-type {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 699px) {
+  .rireki_search {
+    width: 90%;
+    margin: 16px auto 0;
+    display: block;
+  }
+}
+
+@media (max-width: 1200px) {
+  .rireki_zandaka {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 699px) {
+  .period {
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+  }
+}
+
+.period {
+  margin-right: 10px;
+  white-space: nowrap;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=payouts.css.map */
