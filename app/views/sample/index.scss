@@ -403,7 +403,7 @@ p {
 
 
 .popout{
-    width: 500px;;
+    width: 1000px;;
     margin: 0 auto;
     margin-bottom: 50px;
 
@@ -422,14 +422,13 @@ p {
 
 .collapsible-body {
     margin: 0 auto!important;
-    span{
-    text-align: cneter;
+    padding-left: 0px;
+    padding-right: 0px!important;
 }
 .bottle_select {
-    margin-left: 150px;
+    margin-left: 430px;
     background:#ff6e00;
     font-weight: 700;
     border-radius: 4px;
     margin-top: 20px;
-}
 }
