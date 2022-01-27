@@ -132,9 +132,16 @@ input {
   background: #ff6e00;
 }
 
+@media (max-width: 699px) {
+  .dropdown1 {
+    width: 300px;
+    left: 800px !important;
+  }
+}
+
 .dropdown1 {
+  left: 860px !important;
   width: 300px;
-  left: 800px !important;
 }
 
 .dropdown2 {
@@ -142,7 +149,8 @@ input {
 }
 
 .dropdown3 {
-  width: 260px;
+  width: 130px;
+  left: 1130px !important;
 }
 
 .read {
