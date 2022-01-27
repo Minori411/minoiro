@@ -1,7 +1,8 @@
 $(function() {
     $('.dropdown-trigger').dropdown({
         constrainWidth:false,
-        coverTrigger:false
+        coverTrigger:false,
+        alignment:'left'
     });
 
     $(document).on('click', function(e) {
@@ -13,8 +14,20 @@ $(function() {
             if($('.dropdown-content').is(':hidden')){
                 $('dropdown-content').fadeIn();
             }else{
-                $('#dropdown-content').fadeOut();
+                $('.dropdown-content').fadeOut();
             }
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems,{
+        preventScrolling:false
+    });
+  });
