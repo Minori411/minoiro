@@ -132,6 +132,14 @@ input {
   background: #ff6e00;
 }
 
+.create-btn:hover {
+  background: #994200;
+}
+
+.dropdown-content {
+  border-radius: 4px;
+}
+
 @media (max-width: 699px) {
   .dropdown1 {
     width: 300px;
@@ -146,6 +154,7 @@ input {
 
 .dropdown2 {
   width: 260px;
+  left: 950px !important;
 }
 
 .dropdown3 {
@@ -327,5 +336,9 @@ div {
 
 .fa-resize {
   margin-right: 5px !important;
+}
+
+.gray {
+  color: #bdbdbd !important;
 }
 /*# sourceMappingURL=header_login.css.map */

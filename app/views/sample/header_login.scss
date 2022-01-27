@@ -94,6 +94,8 @@ input {
 .notification {
     cursor: pointer;
 
+    
+
     button {
         background: transparent;
         border: none;
@@ -114,8 +116,15 @@ input {
     border-radius: 4px;
     font-weight: 700;
     background: #ff6e00;
+
+    &:hover {
+        background:darken(#ff6e00,20%);
+    }
 }
 
+.dropdown-content {
+    border-radius: 4px;
+}
 
 
 @media (max-width: 699px){
@@ -132,6 +141,7 @@ input {
 }
 .dropdown2 {
     width: 260px;
+    left: 950px!important;
 }
 
 .dropdown3 {
@@ -323,4 +333,8 @@ div {
 
 .fa-resize {
     margin-right: 5px!important;
+}
+
+.gray {
+    color:#bdbdbd!important;
 }
