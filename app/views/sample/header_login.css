@@ -152,4 +152,9 @@ input {
 .dropdown3 {
   width: 260px;
 }
+
+.read {
+  text-align: right;
+  font-size: 10px !important;
+}
 /*# sourceMappingURL=header_login.css.map */

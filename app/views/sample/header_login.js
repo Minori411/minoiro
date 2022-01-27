@@ -3,8 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Dropdown.init(elems,{
         constrainWidth: false,
         coverTrigger:false,
-        alignment:'left'
+        alignment:'left',
+        closeOnClick:false
     });
   });
 
+  
   
