@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/224f2824f8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="header_login.css">
+    <script src="header_login.js"></script>
+    <title>ログイン後ヘッダー</title>
+</head>
+<body>
+    <header class="header pc_hyoji mini z-depth-1">
+        <div class="header_inner">
+            <div class="header_inner_head flexbox">
+                <div class="navi auth_buttons flexbox">
+                    <div class="search">
+                        <form method="GET">
+                            <div class="relative">
+                                <input id="q" placeholder="検索" name="q" type="text">
+                                <div class="absolute center-v right-1 gray2 header_search">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="notification" style="margin-right: 16px;">
+                        <!-- Dropdown Trigger -->
+                        <a class='dropdown-trigger' href='#' data-target='dropdown1'><i class="far fa-bell fa-sm"></i></a>
+
+                        <!-- Dropdown Structure -->
+                        <ul id='dropdown1' class='dropdown-content'>
+                            <li><a href="#!">通知の保存期間は１年間となります</a></li>
+                            <li><a href="#!">two</a></li>
+                            <li class="divider" tabindex="-1"></li>
+                            <li><a href="#!">three</a></li>
+                            <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                            <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                        </ul>
+                    </div>
+                    <div class="iconbtn" style="margin-right: 16px;">
+                        <!-- Dropdown Trigger -->
+                        <a class='dropdown-trigger' href='#' data-target='dropdown2'><img src="flower.jpeg" height="40px"></a>
+
+                        <!-- Dropdown Structure -->
+                        <ul id='dropdown2' class='dropdown-content'>
+                            <li><a href="#!">one</a></li>
+                            <li><a href="#!">two</a></li>
+                            <li class="divider" tabindex="-1"></li>
+                            <li><a href="#!">three</a></li>
+                            <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                            <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                        </ul>
+                    </div>
+                    <div class="add_new">
+                        <!-- Dropdown Trigger -->
+                        <a class='dropdown-trigger btn create-btn' href='#' data-target='dropdown3'>作成</a>
+
+                        <!-- Dropdown Structure -->
+                        <ul id='dropdown3' class='dropdown-content'>
+                            <li><a href="#!">プランの作成</a></li>
+                            <li><a href="#!">ブログの作成</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

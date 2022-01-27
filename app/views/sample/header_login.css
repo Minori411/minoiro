@@ -1,0 +1,135 @@
+.pc_hyoji {
+  display: block;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 0 4%;
+  top: 0;
+  background: #fff;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+  border-bottom: 1px solid #e9eef1;
+  z-index: 999;
+}
+
+header .header_inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .header_inner #q {
+  background: #f4f8fa;
+  margin: 0;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 230px;
+}
+
+header .header_inner .auth_buttons {
+  margin-left: auto;
+}
+
+header .header_inner .navi {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff !important;
+}
+
+header .header_inner .navi .search {
+  margin-right: 12px;
+}
+
+header .header_inner_head {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 72px;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.relative {
+  position: relative;
+}
+
+input[type=text] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 44px;
+  font-size: 16px;
+}
+
+input {
+  overflow: visible;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.gray2 {
+  font-size: 13px;
+  color: #999;
+}
+
+.right-1 {
+  right: 1rem;
+}
+
+.center-v {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.fas {
+  font-weight: 900;
+  -webkit-font-snoothing: antialiased;
+  display: inline-block;
+  text-rendering: auto;
+}
+
+.notification {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.notification button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: #bdbdbd;
+  text-align: left;
+}
+
+.create-btn {
+  width: 80px;
+  height: 50px;
+  font-size: 16px;
+  padding-top: 7px;
+  border-radius: 4px;
+  font-weight: 700;
+  background: #ff6e00;
+}
+/*# sourceMappingURL=header_login.css.map */
