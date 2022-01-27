@@ -1,0 +1,147 @@
+.gray,
+label {
+    color: #777!important;
+}
+
+.fa-search {
+    position: absolute;
+    top: 50%!important;
+    transform: translateY(-50%)!important;
+    left: 540%;
+}
+
+.validate {
+    width: 300px!important;
+}
+
+.contract_search_plan {
+    width: 500px;
+}
+
+.contract_search_status {
+    width: 150px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.dashContent {
+    display: flex;
+    text-align: left;
+}
+
+.back_white {
+    background: #f4f8fa!important;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.p-t3 {
+    padding-top: 30px;
+}
+
+.dashContent_right {
+    flex: 1;
+    margin-left: 16px;
+    min-height: 0;
+    min-width: 0;
+}
+
+.dashContent_reset {
+    overflow: visible!important;
+}
+
+.boxbaseP30 {
+    padding: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #f6f6f6;
+    border-radius: 8px;
+}
+
+.dashContent_Category_title {
+    margin-bottom: 32px;
+    align-items: center;
+
+    h2 {
+        text-align: left;
+        margin-bottom: 0;
+        flex: 1;
+        width: auto;
+    }
+}
+
+h2 {
+    font-size: 28px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.link {
+    color: #ff6e00;
+}
+
+.contract_search {
+    padding-bottom: 32px;
+}
+
+#focus_trigger {
+    display: none;
+    .focus_button {
+        display: none;
+    }
+}
+
+input[type=checkbox]:read-only {
+    color: #ccc!important;
+    border-color: #ccc!important;
+}
+
+[type=checkbox] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input {
+    line-height: normal;
+    overflow: visible;
+    font-size: 100%;
+    margin: 0;
+}
+
+.focus {
+    display: block;
+}
+
+.contract_search_contents {
+    justify-content: space-between;
+}
+
+label {
+    white-space: nowrap;
+}
+
+.alert-error {
+    width: 100%;
+    color: #a94442;
+    background: #f2dede;
+    padding: 6px 16px 6px 20px!important;
+    margin-bottom: 10px;
+    border: 1px solid #e0b9b7;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    line-height: 1.5;
+}
+
+.fa-exclamation {
+    margin-right: 5px;
+}
