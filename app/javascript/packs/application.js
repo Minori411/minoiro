@@ -15,3 +15,7 @@ ActiveStorage.start()
 var componentRequireContext = require.context("components", true);
 var ReactRailsUJS = require("react_ujs");
 ReactRailsUJS.useContext(componentRequireContext);
+
+//= require_tree .
+//= require jquery #追加
+//= require jquery_ujs #追加
