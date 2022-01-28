@@ -112,4 +112,17 @@ input {
   border-radius: 8px;
   margin-bottom: 10px;
 }
+
+@media (max-width: 699px) {
+  .back_white {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 699px) {
+  .inner {
+    margin: 0 auto;
+    paddiing: 0 !important;
+  }
+}
 /*# sourceMappingURL=message.css.map */
