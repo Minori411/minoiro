@@ -3,6 +3,7 @@
   display: -ms-flexbox;
   display: flex;
   text-align: left;
+  overflow: hidden;
 }
 
 .back_white {
@@ -25,6 +26,7 @@
       -ms-flex: 1;
           flex: 1;
   margin-left: 16px;
+  margin-right: 16px;
   min-height: 0;
   min-width: 0;
 }
@@ -75,7 +77,9 @@ h1 {
 }
 
 .navbox_search .fa-search {
-  margin-left: -20px;
+  position: absolute;
+  top: 21.5%;
+  right: 10%;
   color: #777;
 }
 
@@ -122,7 +126,66 @@ input {
 @media (max-width: 699px) {
   .inner {
     margin: 0 auto;
-    paddiing: 0 !important;
+    padding: 0 !important;
   }
+}
+
+@media (max-width: 1200px) {
+  .inner {
+    max-width: 1100px;
+    width: 97% !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
+@media (max-width: 699px) {
+  .dashContent_right {
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 699px) {
+  .multiple_send_button {
+    min-width: 217px !important;
+    font-size: 12px !important;
+    background: #fff !important;
+    color: #ff6e00 !important;
+    font-weight: 700;
+    border: 2px solid #ff6e00 !important;
+    border-radius: 4px !important;
+    margin-left: auto !important;
+  }
+}
+
+@media (max-width: 300px) {
+  .multiple_send_button {
+    font-size: 10px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 300px) {
+  .navbox input {
+    width: 210px !important;
+  }
+}
+
+@media (max-width: 699px) {
+  .flexbox-align-center {
+    display: block;
+    margin-bottom: 20px;
+    width: 100% !important;
+  }
+}
+
+.multiple_send_button {
+  background: #fff !important;
+  color: #ff6e00 !important;
+  font-weight: 700;
+  border: 2px solid #ff6e00 !important;
+  border-radius: 4px !important;
 }
 /*# sourceMappingURL=message.css.map */

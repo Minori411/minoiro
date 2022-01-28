@@ -1,6 +1,7 @@
 .dashContent {
     display: flex;
     text-align: left;
+    overflow:hidden;
 }
 
 .back_white {
@@ -20,6 +21,7 @@
 .dashContent_right {
     flex: 1;
     margin-left: 16px;
+    margin-right: 16px;
     min-height: 0;
     min-width: 0;
 
@@ -58,7 +60,9 @@ h1 {
     text-align: right;
 
     .fa-search {
-        margin-left: -20px;
+        position: absolute;
+        top: 21.5%;
+        right: 10%;
         color: #777;
     }
 
@@ -116,7 +120,7 @@ input {
 @media (max-width: 1200px) {
     .inner {
         max-width: 1100px;
-        width: 97%;!important;
+        width: 97%!important;
         box-sizing: border-box;
     }
 }
@@ -124,6 +128,52 @@ input {
 @media (max-width: 699px) {
     .dashContent_right {
         margin-top: 20px;
-        margin-left: 1px;
+        margin-left: 15px;
     }
+}
+
+@media (max-width: 699px) {
+    .multiple_send_button {
+        min-width: 217px!important;
+        font-size: 12px!important;
+        background: #fff!important;
+        color: #ff6e00!important;
+        font-weight: 700;
+        border: 2px solid #ff6e00!important;
+        border-radius: 4px!important;
+        margin-left: auto!important;
+    }
+}
+
+@media (max-width: 300px) {
+    .multiple_send_button {
+        font-size: 10px!important;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .navbox {
+    input {
+        width: 210px!important;
+    }
+}
+}
+
+@media (max-width: 699px) {
+    .flexbox-align-center {
+        display: block;
+        margin-bottom: 20px;
+        width: 100%!important;
+    }
+}
+
+.multiple_send_button {
+    background: #fff!important;
+    color: #ff6e00!important;
+    font-weight: 700;
+    border: 2px solid #ff6e00!important;
+    border-radius: 4px!important;
 }
