@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/224f2824f8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="charge_history.css">
     <title>みのいろ</title>
 </head>
@@ -22,14 +23,14 @@
                         <input bane="to" type="date" value style="height: 49px;">
                     </div>
                 </div>
-                <div class="contract_search_plan lg:ml-4">
-                    <div class="input_head">プラン</div>
-                    <div class="input_body select-wrap bg-white">
-                        <select name="action_id" class="custom-select">
-                            <option value>未選択</option>
-                            <option value="">カラーセラピー</option>
+                <div class="contract_search_plan">
+                    <label class="plan">プラン</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>未選択</option>
+                            <option value="1">カラーセラピー</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
                         </select>
-                    </div>
                 </div>
             </div>
         </form>

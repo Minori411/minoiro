@@ -320,11 +320,14 @@ p {
     display: block;
   }
   .rireki_zandaka {
-    margin-right: 100px !important;
+    margin-right: 500px !important;
     max-width: 100px !important;
   }
   .month_head {
     display: block !important;
+  }
+  .align-right {
+    padding-left: 0 !important;
   }
 }
 
