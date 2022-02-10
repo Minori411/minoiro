@@ -1,0 +1,64 @@
+<div class="back_white inner p-t3 dashContent">
+    <div class="dashContent_right">
+        <h1>メッセージ</h1>
+        <div class="v-app memberMainContents m-b3">
+            <div>
+                <a href="#" class="text_link bold"></a>
+                さんに
+                <strong>メッセージを送信する</strong>
+            </div>
+            <div>
+                <form method="post" enctype="multipart/form-data" class="bosyu_form js-alert-beforeunload">
+                    
+                    <div class="msg_area mt-3">
+                        <p class="small text_message">
+                            <span>残り5000字以内</span>
+                        </p>
+                        <textarea name="body" placeholder="メッセージ内容を入れてください..." cols="50" rows="10"></textarea>
+                    </div>
+                    <div class="filedrag mt-2">
+                        <div class="left">
+                            <div class="drop">
+                                <label>
+                                    <div class="drop_label"></div>
+                                    <input id="drop_file" type="file" name="file" accept=".jpg,.gif,.pdf,.txt,.xlsx,.doc,.docx,.ai,.psd,.xd,.sketch,.js,.css,.html,.zip" multiple="multiple" class="drop_input">
+                                </label>
+                                <div></div>
+                                <div class="drop_warning whitespace-pre"></div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <label for="modal-trigger_message_prev" class="btn_small">プレビュー</label>
+                        </div>
+                    </div>
+                    <div class="alignCenter imasugu mt-3">
+                        <input type="submit" value="送信する" onclick="$(window).off('beforeunload');" class="btn nosubmit">
+                    </div>
+                    <div class="tyui m-t2 small">
+                        <p class="tyui_text">注意事項</p>
+                        <ul class="tyui_text">
+                            <li>みのいろを介さずに行う直接取引、勧誘・宣伝行為を禁止しております。
+                                <br>
+                                これらの行為が確認された場合、アカウント制限等の対応をさせていただきますのでご注意ください。
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="message-modal_message_prev" data-name="message_prev" class="modal">
+                        <input id="modal-trigger_message_prev" type="checkbox" class="checkbox">
+                        <div class="modal-overlay">
+                            <label for="modal-trigger_message_prev" class="o-close"></label>
+                            <div class="modal-wrap middle">
+                                <h2 class="alignCenter">プレビュー</h2>
+                                <div class="msg_area_content markdown-body mt-3"></div>
+                                <div class="alignCenter">
+                                    <label for="modal-trigger_message_prev" class="modal-close_button button">閉じる</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="vapp"></div>
+    </div>
+</div>

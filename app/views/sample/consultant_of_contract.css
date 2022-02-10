@@ -1,0 +1,357 @@
+.gray,
+label {
+  color: #777 !important;
+}
+
+.fa-search {
+  position: absolute;
+  top: 50% !important;
+  -webkit-transform: translateY(-50%) !important;
+          transform: translateY(-50%) !important;
+  left: 540%;
+}
+
+.validate {
+  width: 300px !important;
+}
+
+.contract_search_plan {
+  width: 500px;
+}
+
+.contract_search_status {
+  width: 150px;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.dashContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+.back_white {
+  background: #f4f8fa !important;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.p-t3 {
+  padding-top: 30px;
+}
+
+.dashContent_right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 16px;
+  min-height: 0;
+  min-width: 0;
+}
+
+.dashContent_reset {
+  overflow: visible !important;
+}
+
+.boxbaseP30 {
+  padding: 40px;
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #f6f6f6;
+  border-radius: 8px;
+}
+
+.dashContent_Category_title {
+  margin-bottom: 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashContent_Category_title h2 {
+  text-align: left;
+  margin-bottom: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: auto;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.link {
+  color: #ff6e00;
+}
+
+.contract_search {
+  padding-bottom: 32px;
+}
+
+#focus_trigger {
+  display: none !important;
+}
+
+.focus_button {
+  display: none !important;
+}
+
+@media (max-width: 1024px) {
+  #focus_trigger {
+    display: block !important;
+  }
+  .focus_button {
+    display: block !important;
+  }
+}
+
+input[type=checkbox]:-moz-read-only {
+  color: #ccc !important;
+  border-color: #ccc !important;
+}
+
+input[type=checkbox]:read-only {
+  color: #ccc !important;
+  border-color: #ccc !important;
+}
+
+[type=checkbox] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+  overflow: visible;
+  font-size: 100%;
+  margin: 0;
+}
+
+.focus {
+  display: block;
+}
+
+.contract_search_contents {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+label {
+  white-space: nowrap;
+}
+
+.alert-error {
+  width: 100%;
+  color: #a94442;
+  background: #f2dede;
+  padding: 6px 16px 6px 20px !important;
+  margin-bottom: 10px;
+  border: 1px solid #e0b9b7;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  line-height: 1.5;
+}
+
+.fa-exclamation {
+  margin-right: 5px;
+}
+
+@media (max-width: 699px) {
+  .back_white {
+    font-size: 14px;
+  }
+  .back_white h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 699px) {
+  .inner {
+    margin: 0 auto;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .inner {
+    max-width: 1100px;
+    width: 97% !important;
+    -webkit-box-sizing: boder-box;
+            box-sizing: boder-box;
+  }
+}
+
+@media (max-width: 699px) {
+  .dashContent_right {
+    margin-top: 20px;
+    margin-left: 1px;
+  }
+}
+
+@media (max-width: 699px) {
+  .boxbaseP30 {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 699px) {
+  .dashContent_Category_title {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 699px) {
+  margin: 0;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .dashContent_Category_title .link_area {
+    width: 100%;
+    margin-top: 32px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contract_search {
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .focusUnit {
+    display: block;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .focusUnit .focus_button {
+    display: block;
+    text-align: center;
+    border: 1px solid #ff6e00;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    background: #f0f8f9;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 1024px) {
+  .focusUnit .focus_button > i {
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .focus {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contract_search_keyword {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 699px) {
+  .contract_search_plan {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contract_search_plan {
+    max-width: 100%;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contract_search_status {
+    max-width: 48%;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 699px) {
+  .inner {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .inner {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media (max-width: 699px) {
+  .inner {
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .inner {
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .inner {
+    width: 97%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .dashContent_right {
+    margin-left: 0;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 699px) {
+  .dashContent_right {
+    margin-left: 0;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=consultant_of_contract.css.map */

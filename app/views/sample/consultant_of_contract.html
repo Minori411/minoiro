@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/224f2824f8.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="header_login.js"></script>
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="customer_of_contract.css">
+    <title>契約したお客様</title>
+</head>
+<body>
+    <div class="back_white inner p-t3 dashContent">
+        <div class="dashContent_right dashContent_reset boxbaseP30">
+            <div class="dashContent_Category_title flexbox">
+                <h2>契約したコンサルタント</h2>
+                <div class="link_area">
+                    <a href="#" class="link">売上管理を確認</a>
+                    <span>|</span>
+                     <a href="#" class="link">レビュー一覧</a>
+                </div>
+            </div>
+            <form method="get" class="js-auto-submit contract_search">
+                <div class="focusUnit">
+                    <input id="focus_trigger" name="focus_trigger" type="checkbox" data-submit="false">
+                    <label class="focus_button" for="focus_trigger" >
+                        <i class="fas fa-pen" aria-hidden="true"></i>
+                        条件で絞り込む
+                    </label>
+                    <div class="focus">
+                        <div class="contract_search_contents flexbox">
+                            <div class="contract_search_keyword">
+                                <div class="row">
+                                    <form class="col s12">
+                                      <div class="row">
+                                        <div class="input-field col m2 s6">
+                                          <input placeholder="キーワードやお客様の名前" id="search" type="text" class="validate">
+                                          <label for="search">キーワード検索</label>
+                                          <i class="fas fa-search gray"></i>
+                                        </div>
+                                      </div>
+                                    
+                                    </div>
+                                </div>
+                            <div class="contract_search_plan">
+                                <label class="gray">契約したプラン</label>
+                                    <select class="browser-default">
+                                        <option value="" disabled selected>未選択</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                            </div>
+                            <div class="contract_search_status">
+                                <label class="gray">状態</label>
+                                    <select class="browser-default">
+                                        <option value="" disabled selected>未選択</option>
+                                        <option value="contracting">契約中</option>
+                                        <option value="end">契約終了</option>
+                                    </select>
+                            </div>
+
+                        </div>
+                        </div>
+                    </div>
+            </form>
+            <div id="vapp" class="keiyaku_count">
+                <div class="alert alert-error">
+                    <i class="fas fa-exclamation"></i>
+                    コンサルタントは見つかりませんでした。
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
