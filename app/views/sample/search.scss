@@ -1,0 +1,230 @@
+.mentaListBox {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .searchBox_m {
+        margin-top: 20px;
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    @media(max-width: 699px) {
+        .searchBox {
+            width: 100%!important;
+            position: absolute;
+        }
+    }
+    .searchBox {
+        width: 290px;
+        margin-right: 50px;
+        box-sizing: border-box;
+        text-align: left;
+
+        .select-wrap {
+            position: relative;
+            width: 100%;
+            top: -50px;
+
+        }
+
+        #q {
+            background: #f4f8fa;
+            margin: 0;
+            border: none;
+            outline: none;
+            appearance: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .plan_search {
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #f6f6f6;
+            border-radius: 8px;
+            overflow:hidden;
+        }
+    }
+}
+
+input {
+    line-height: normal;
+    padding: 0.5rem 0.75rem;
+}
+
+.m-b1 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.relative {
+    position: relative;
+}
+
+input[type=text] {
+    min-height: 44px;
+    font-size: 16px;
+}
+
+input {
+    overflow: visible;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.gray2 {
+    font-size: 13px;
+    color: #999;
+}
+
+.right-1 {
+    right: 1rem;
+}
+
+.center-v {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fas {
+    font-weight: 900;
+}
+
+#motto_trigger,
+.motto_btn {
+    display: none;
+}
+
+input[type=checkbox]:read-only {
+    color: ccc!important;
+    border-color: #ccc!important;
+}
+
+[type=checkbox] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.motto {
+    display: block;
+}
+
+.inner {
+    .tagbox {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.right {
+    text-align: right;
+}
+
+.form-group {
+    display: flex;
+}
+
+select {
+    padding-right: 2rem;
+    padding: 0.5rem 0.75rem;
+    outline: none;
+    appearance: auto!important;
+    text-indent: 0.01px;
+    background: none;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    height: 40px;
+    border: 1px solid #ddd;
+    width: 200px!important;
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+}
+
+select {
+    option {
+        background: #fff;
+        color: #333;
+    }
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.back_white {
+    background: #f4f8fa;
+}
+
+.price-custom {
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+@media (max-width: 699px) {
+    .mantaListBox {
+        .searchBox {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+}
+
+@media (max-width: 699px) {
+    .mottoBox {
+        display: block;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 699px) {
+    .mottoBox {
+        .motto_btn {
+            color: #ff6e00;
+            display: block!important;
+        }
+    }
+}
+
+@media (max-width: 699px) {
+    #motto_trigger:checked~,{
+        display: none;
+    }
+    .motto_btn {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 699px) {
+    .back_white {
+        .inner {
+            .right {
+                text-align: left;
+            }
+        }
+    }
+}
+

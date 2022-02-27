@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/224f2824f8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="search.css">
+    <script src="search.js"></script>
+    <title>絞り込み検索</title>
+</head>
+<body>
+    <div class="back_white">
+    <div class="mentaListBox">
+    <div class="searchBox">
+    <form method="GET" action="search" class="js-auto-submit">
+    <div class="plan_search">
+        <input name="search_on" type="hidden" value="on">
+        <h3 class="m-b1">条件で絞り込む</h3>
+        <div class="relative">
+            <input id="q" placeholder="コンサルテーション" name="q" type="text">
+            <div class="absolute center-v right-1 gray2 header-search">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+        <div class="mottoBox">
+            <input id="motto_trigger" name="motto_trigger" type="checkbox" data-submit="false">
+            <label class="motto_btn" for="motto_trigger">
+                <a class='dropdown-trigger' href='#' data-target='dropdown1'>もっと詳しく検索</a>
+                <i class="fas fa-chevron-down"></i>
+                
+            </label>
+            <ul id='dropdown1' class='dropdown-content'>
+            <div class="motto">
+                <div class="searchBox_m">知りたいこと</div>
+                <div class="inner flex tagbox">
+                    <a href="#" class="chip">生まれてきた意味（使命）</a>
+                    <a href="#" class="chip">過去</a>
+                    <a href="#" class="chip">現在</a>
+                    <a href="#" class="chip">未来</a>
+                    <a href="#" class="chip">恋愛</a>
+                    <a href="#" class="chip">夫婦関係</a>
+                </div>
+                <div class="searchBox_m">コンサルタイプ</div>
+                <div class="inner flex tagbox">
+                    <a href="#" class="chip">カップルコンサル</a>
+                </div>
+                <div class="searchBox_m">相談方式</div>
+                <div class="inner flex tagbox">
+                    <a href="#" class="chip">チャット</a>
+                    <a href="#" class="chip">ビデオ通話</a>
+                </div>
+                <div class="price-custom">
+                <div class="searchBox_m">料金</div>
+                <div class="form-group right">
+                    <div class="select-wrap">
+                <select class="browser-default">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+            </div>
+            </div>
+            </div>
+            <div class="review-custom">
+                <div class="searchBox_m">評価</div>
+                <div class="form-group right">
+                    <div class="select-wrap">
+                        <select class="browser-default">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </ul>
+        </div>
+    </div>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+<!-- Dropdown Trigger -->
+<a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
+
+<!-- Dropdown Structure -->
+<ul id='dropdown1' class='dropdown-content'>
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider" tabindex="-1"></li>
+  <li><a href="#!">three</a></li>
+  <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+  <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+</ul>
