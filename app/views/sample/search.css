@@ -307,4 +307,518 @@ h3 {
     height: 500px;
   }
 }
+
+/*ここからプラン*/
+.mentaListBox .listBox_text {
+  color: #666;
+  text-align: left;
+}
+
+.mentaListBox .listBox_result {
+  text-align: left;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.mentaListBox .listBox_result span {
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: inline;
+  margin-right: 4px;
+  color: #ff6e00;
+}
+
+.mentaListBox .listBox_info {
+  margin-bottom: 16px;
+}
+
+.mentaListBox .listBox_inner {
+  position: relative;
+}
+
+.mentaListBox .listBox {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 0;
+}
+
+.mentorSearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto 24px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mentorSearch h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.backwhite .inner h1 {
+  color: #333;
+  font-size: 28px;
+  text-align: left;
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  line-height: 150%;
+}
+
+.navbox_nav {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.navbox_nav a {
+  padding: 16px;
+  color: #999;
+}
+
+.navbox_nav .active a {
+  color: #ff6e00;
+  font-weight: 700;
+  position: relative;
+}
+
+.flexbox {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.mentorList {
+  overflow-x: auto;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.mentorList .plan-card {
+  margin-right: 17px;
+}
+
+.plan-card {
+  position: relative;
+  width: 270px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #999;
+  overflow: hidden;
+}
+
+.plan-card .slick-slide {
+  position: relative !important;
+}
+
+.plan-card .slick-slider {
+  position: absolute !important;
+  margin-bottom: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+}
+
+.plan-card_wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.plan-card_eyecatch {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-top: 56%;
+  background: #999;
+  margin-bottom: 0 !important;
+  height: 0;
+  line-height: 0;
+  z-index: 2;
+}
+
+.plan-card_image {
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: auto;
+}
+
+.slick-list {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.plan-card_iconButton {
+  position: absolute;
+  top: 90px;
+  right: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.plan-card_iconButton .like .off {
+  color: #fff;
+}
+
+.like {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plan-card-text {
+  padding: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.plan-card_top {
+  padding-bottom: 72px;
+}
+
+.plan-card_subject {
+  font-size: 14px;
+  text-align: left;
+  font-weight: 600;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  display: -webkit-box;
+  line-height: 1.6;
+}
+
+.plan-card_user {
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.plan-card_user .name {
+  position: relative;
+  font-size: 12px;
+  margin-left: 8px;
+  color: #999;
+}
+
+.plan-card_user .avatar-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.plan-card_user .avatar-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+}
+
+.plan-card_user > a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.name {
+  -webkit-box-orient: vertical;
+  -webkit-line-camp: 1;
+  overflow: hidden;
+  display: -webkit-box !important;
+  max-width: calc(100% - 40px);
+}
+
+.plan-card_bottom {
+  position: absolute;
+  width: 100%;
+  padding: 0 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  left: 0;
+  bottom: 16px;
+}
+
+.plan-card_info {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plan-card_review {
+  margin-top: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 14px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plan-card_review-icon {
+  margin-right: 2px;
+  color: #f698a1;
+}
+
+.plan-card_review-count {
+  margin-right: 6px;
+  font-weight: 500;
+}
+
+.plan-card_review-link {
+  font-size: 12px;
+  z-index: 1;
+}
+
+.plan-card_price {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: right;
+  color: #ff6e00;
+  margin-top: 8px;
+  margin-left: auto;
+}
+
+.m-b1 {
+  margin-bottom: 10px;
+}
+
+.top_mentor_title {
+  text-align: left;
+}
+
+.m-t2 {
+  margin-top: 20px;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.top_mentor_compornent {
+  text-align: left;
+}
+
+.m-t1 {
+  margin-top: 10px;
+}
+
+.top_mentor_card {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 8px;
+}
+
+.top_mentor_card_card {
+  width: calc(33% - 17px);
+  margin-right: 28px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #f6f6f6;
+  padding: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.top_mentor_card_card .comment {
+  font-size: .8rem;
+  margin: 8px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.top_mentor_card_card .facebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top_mentor_card_card .facebox .name--small {
+  font-size: .7rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: left;
+  color: #666;
+}
+
+.top_mentor_card_card .facebox .name {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.top_mentor_card_card .facebox .face {
+  margin-right: 8px;
+}
+
+.top_mentor_card_card .title {
+  font-size: .8rem;
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+.top_mentor_card_card .thumbnail {
+  width: 100%;
+  line-height: 1;
+}
+
+.top_mentor_card_card .thumbnail img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100px;
+}
+
+.top_mentor_card_card .thumbnail a {
+  line-height: 0;
+}
+
+.top_mentor_card .avatar_icon {
+  border-top: 1px solid #e5e5e5;
+  margin: 8px 0 0;
+  padding: 8px 0 0;
+}
+
+.size {
+  width: 30px;
+  height: 30px;
+  max-width: 30px !important;
+}
+
+.icon {
+  margin: 0 auto;
+  border-radius: 50%;
+  background-position: top;
+  background-size: cover;
+  background: #f4f8fa !important;
+}
+
+.text-ellipsis-line3 {
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.size20 {
+  width: 20px;
+  height: 20px;
+  max-width: 20px !important;
+}
+
+.icon {
+  margin: 0 auto;
+  border-radius: 50%;
+  background-position: top;
+  background-size: cover;
+  background: #f4f8fa;
+}
+
+.consultant-plan {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.consultant-plan .mentorList {
+  width: 1000px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.consultant-plan .mentorList .plan-card_wrapper {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
 /*# sourceMappingURL=search.css.map */
